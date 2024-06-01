@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+.readex {
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "HEXP" 0;
+  font-family: "Readex Pro", sans-serif;
+}
+
+.name {
+  text-transform: uppercase;
+  width: 100%;
+  max-width: -webkit-max-content;
+  max-width: max-content;
+  font-size: min(11.4vw, 9.2em);
+  font-weight: 600;
+  line-height: 115%;
+}

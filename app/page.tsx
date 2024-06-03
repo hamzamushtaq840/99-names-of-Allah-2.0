@@ -1,10 +1,11 @@
+import Hadith from "@/components/hadith";
 import Hero from "@/components/hero";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      {/* <Hadith /> */}
+      <Hadith />
       {/* <Names /> */}
       {/* <Accordion /> */}
     </main>

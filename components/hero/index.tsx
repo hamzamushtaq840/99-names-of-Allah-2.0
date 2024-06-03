@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="mx-28 mt-16 bg-black">
+    <section className="mx-28 mt-16 h-[calc(100vh-155px)] bg-black">
       <h1 className="readex name text-white">99 NAMES OF ALLAH</h1>
 
       <div className="mt-10 grid grid-cols-2 gap-10">
         <div>
-          <div className="h-[1px] w-full bg-white"></div>
+          <div className="h-[1px] w-full bg-[#a1a1a1]"></div>
         </div>
         <div className="mt-2">
           <div className="flex flex-col text-xl text-[#A4A4A4]">
@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="mt-14 flex justify-center">
+      <div className="mt-20 flex justify-center">
         <img
           src="https://assets-global.website-files.com/65ec76596f839f619b8b82fe/660a48e25f4b7a8e5c1ed820_Scroll.webp"
           loading="eager"

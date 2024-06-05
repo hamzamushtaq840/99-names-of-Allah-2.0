@@ -13,7 +13,7 @@ export default function Hero() {
           <div className="flex flex-col text-xl text-[#A4A4A4]">
             <div>
               {/* <span className="text-[#FB5322]">" </span> */}
-              <span>
+              <span className="readex">
                 He is Allah, the Creator, the Originator, The Fashioner, to Him
                 belong the most beautiful names...{" "}
               </span>

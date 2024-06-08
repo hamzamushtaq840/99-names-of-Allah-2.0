@@ -1,6 +1,6 @@
 "use client";
-import React, { useState } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import React, { useState, useRef, useEffect } from "react";
+import { motion, useScroll, useTransform, useMotionValue } from "framer-motion";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -36,8 +36,6 @@ const DisabledDot = () => (
 );
 
 const Hadith = () => {
-  const { scrollYProgress } = useScroll();
-  const x = useTransform(scrollYProgress, [0, 1], ["100vw", "0vw"]);
   const [activeSlide, setActiveSlide] = useState(0);
 
   const settings = {
@@ -67,14 +65,12 @@ const Hadith = () => {
   };
 
   return (
-    <div className="overflow-hidden text-black">
-      <div className="readex about-text abc relative ml-24 mt-7">
-        <motion.h1 style={{ x }} className="text-outline absolute top-0">
-          Hadiths
-        </motion.h1>
+    <div className="text-black">
+      <div className="readex about-text abc ml-24 mt-7">
+        <h1 className="text-outline">Hadiths</h1>
       </div>
 
-      <div className="slider-container my-64 px-[6px] text-white">
+      <div className="slider-container mt-40 px-[6px] text-white">
         <Slider {...settings}>
           {/* Hadith 1 */}
           <>
@@ -119,7 +115,7 @@ const Hadith = () => {
 
           {/* Hadith 2 */}
           <>
-            <div className="flex min-h-[225px] justify-between px-24">
+            <div className="flex min-h-[235px] justify-between px-24">
               <p className="readex w-[33%] text-4xl font-semibold">
                 Surah Al-Isra 17:1107
               </p>
@@ -132,11 +128,6 @@ const Hadith = () => {
           </>
         </Slider>
       </div>
-
-      {/* <h1 className="readex mx-24 mt-0 w-1/2 text-5xl font-semibold text-white">
-        I provide artistic <span className="text-[#FB5322]">solutions</span> to
-        meet your business requirements.
-      </h1> */}
     </div>
   );
 };

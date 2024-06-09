@@ -1,6 +1,6 @@
-import Hadith from "@/components/hadith";
-import Hero from "@/components/hero";
-import Names from "@/components/names";
+import Hadith from "@/app/_components/hadith";
+import Hero from "@/app/_components/hero";
+import Names from "@/app/_components/names";
 
 export default function Home() {
   return (

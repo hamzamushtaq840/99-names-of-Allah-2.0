@@ -2,12 +2,12 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import { names } from "@/utils/consts";
+import { names } from "@/app/utils/consts";
 import Link from "next/link";
 
 const Names = () => {
   return (
-    <div className="mt-24 text-black">
+    <section id="names" className="mt-24 text-black">
       <div className="readex about-text abc ml-24 mt-7">
         <motion.h1 className="text-outline">Names</motion.h1>
       </div>
@@ -60,7 +60,7 @@ const Names = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,0 +1,4 @@
+#generic
+1. Download fonts or use fonts like acme-dashboard in fonts
+#hero
+1. Download scroll down image and convert to jpg goto next images

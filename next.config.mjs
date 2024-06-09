@@ -8,6 +8,7 @@ const nextConfig = {
       "plus.unsplash.com",
       "i.pinimg.com",
       "64.media.tumblr.com",
+      "assets-global.website-files.com",
     ],
   },
 };

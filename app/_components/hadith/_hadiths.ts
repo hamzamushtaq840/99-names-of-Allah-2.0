@@ -1,6 +1,4 @@
-import { HadithAttr } from "@/app/lib/definitions";
-
-const hadiths: HadithAttr[] = [
+const hadiths = [
   {
     reference: "Sahih Muslim 2677",
     content: `Abu Huraira reported: The Prophet, peace and blessings be upon him,

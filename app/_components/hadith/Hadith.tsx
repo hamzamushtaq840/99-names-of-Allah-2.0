@@ -1,5 +1,4 @@
 import { HadithAttr } from "@/app/lib/definitions";
-import React from "react";
 
 const Hadith = ({ hadith }: { hadith: HadithAttr }) => {
   return (

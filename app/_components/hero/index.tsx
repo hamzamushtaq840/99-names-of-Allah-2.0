@@ -6,13 +6,13 @@ export default function Hero() {
       <h1 className="readex name text-white">99 NAMES OF ALLAH</h1>
 
       <div className="mt-10 grid grid-cols-2 gap-10">
-        <div className="h-[1px] w-full bg-line"></div>
-        <div className="text-grey mt-2 flex flex-col text-xl">
+        <div className="bg-line h-[1px] w-full"></div>
+        <div className="mt-2 flex flex-col text-xl text-grey">
           <span className="readex font-light">
             He is Allah, the Creator, the Originator, The Fashioner, to Him
             belong the most beautiful names...
           </span>
-          <span className="text-orange readex ml-auto text-sm">
+          <span className="readex ml-auto text-sm text-orange">
             Surah Al-Hashr 59:24
           </span>
         </div>

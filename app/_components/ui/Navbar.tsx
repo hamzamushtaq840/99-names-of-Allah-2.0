@@ -1,11 +1,20 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
   return (
     <nav className="readex mx-28 grid h-24 grid-cols-3 items-center text-white">
       <ul className="flex gap-7 font-medium">
-        <li>Hadiths</li>
-        <li>Names</li>
+        <li>
+          <Link className="hover:text-orange" href="/#hadiths">
+            Hadiths
+          </Link>
+        </li>
+        <li>
+          <Link className="hover:text-orange" href="/#names">
+            Names
+          </Link>
+        </li>
       </ul>
 
       <span className="flex justify-center text-2xl font-semibold">
@@ -13,8 +22,9 @@ const Navbar = () => {
       </span>
 
       <ul className="flex justify-end gap-7 font-medium">
-        <li>Blog</li>
-        <li>Contact</li>
+        <Link className="hover:text-orange" href="/#hadiths">
+          Contact Us
+        </Link>
       </ul>
     </nav>
   );

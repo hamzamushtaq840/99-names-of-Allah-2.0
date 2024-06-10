@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,7 +16,7 @@
 
 html {
   background-color: black;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 .readex {
@@ -22,6 +25,15 @@ html {
   font-variation-settings: "HEXP" 0;
   font-family: "Readex Pro", sans-serif;
 }
+
+.lime {
+  font-family: "Limelight", cursive;
+}
+
+.rakkas {
+  font-family: "Rakkas", cursive;
+}
+
 .montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -47,5 +59,105 @@ html {
   font-size: 6.75rem;
   font-weight: 600;
   line-height: 115%;
-  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.slick-dots li div {
+  fill: white;
+}
+
+.slick-dots li:hover div {
+  fill: #fb5322;
+}
+
+.slick-dots .slick-active div {
+  fill: #fb5322;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.sticky-element {
+  background-color: black;
+}
+
+.has-sticky {
+  padding-top: auto;
+}
+
+.hadees-container {
+  overflow-x: hidden;
+}
+
+.fade-out-left {
+  animation: fade-out-left 1s ease;
+}
+
+.fade-in-right {
+  animation: fade-in-right 1s ease;
+}
+
+@keyframes fade-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out-left {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.image-box {
+  overflow: hidden;
+  transition: all 0.3s;
+  transform: scale(1);
+  border-radius: 4px;
+}
+
+.image-box:hover span {
+  display: block;
+}
+
+.image-box .img {
+  transition: all 0.8s;
+  transform: scale(1);
+}
+
+.image-box:hover .img {
+  transform: scale(1.07);
+}
+
+.no-transition {
+  transition: none !important;
+}
+
+.quranAyah {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow:
+    rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.quranAyah2 {
+  box-shadow:
+    rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }

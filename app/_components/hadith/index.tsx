@@ -9,9 +9,7 @@ const Hadith = () => {
     <>
       <Heading2 content="Hadiths" id="hadiths" />
 
-      <div className="mt-40 px-[6px] text-white">
-        <HadithSlider />
-      </div>
+      <HadithSlider />
     </>
   );
 };

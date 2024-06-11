@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import Hadith from "./Hadith";
-import hadiths from "./_hadiths";
+import hadiths from "../../lib/hadiths";
 
 const HadithSlider = () => {
   const settings = {
@@ -15,7 +15,7 @@ const HadithSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    customPaging: (i: number) => (
+    customPaging: () => (
       <div>
         <CustomDot />
       </div>
@@ -23,11 +23,13 @@ const HadithSlider = () => {
   };
 
   return (
-    <Slider {...settings}>
-      {hadiths.map((hadith) => {
-        return <Hadith hadith={hadith} />;
-      })}
-    </Slider>
+    <div className="mt-40 px-2">
+      <Slider {...settings}>
+        {hadiths.map((hadith) => {
+          return <Hadith hadith={hadith} />;
+        })}
+      </Slider>
+    </div>
   );
 };
 

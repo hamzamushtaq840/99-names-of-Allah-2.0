@@ -3,7 +3,7 @@ export type HadithAttr = {
   content: string;
 };
 
-export type NamesAttr = {
+export type NameAttr = {
   image: string;
   imageBrightness: string;
   arabic: {

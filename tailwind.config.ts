@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         grey: "#A4A4A4",
+        whiteSub: "#c5ccd3",
         orange: "#FB5322",
         line: "#a1a1a1",
       },

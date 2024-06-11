@@ -124,26 +124,6 @@ html {
   }
 }
 
-.image-box {
-  overflow: hidden;
-  transition: all 0.3s;
-  transform: scale(1);
-  border-radius: 4px;
-}
-
-.image-box:hover span {
-  display: block;
-}
-
-.image-box .img {
-  transition: all 0.8s;
-  transform: scale(1);
-}
-
-.image-box:hover .img {
-  transform: scale(1.07);
-}
-
 .no-transition {
   transition: none !important;
 }

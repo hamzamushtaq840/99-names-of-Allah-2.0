@@ -1,7 +1,9 @@
+import { NamesIndex } from "./definitions";
+
 const names = [
   {
-    image:
-      "https://i.pinimg.com/originals/d1/65/97/d165973ecc3dd541529a2d2cdeaf2c11.jpg",
+    id: 1,
+    image: "/names-images/one.jpg",
     imageBrightness: "40%",
     arabic: {
       name: "الرَّحْمَنُ",
@@ -17,8 +19,8 @@ const names = [
     },
   },
   {
-    image:
-      "https://i.pinimg.com/originals/a3/22/53/a32253bc408d53b57672dc0880856302.jpg",
+    id: 2,
+    image: "/names-images/two.jpg",
     imageBrightness: "45%",
     arabic: {
       name: "ٱلْرَّحِيْمُ",
@@ -34,8 +36,8 @@ const names = [
     },
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+    id: 3,
+    image: "/names-images/three.avif",
     imageBrightness: "40%",
     arabic: {
       name: "ٱلْمَلِكُ",
@@ -51,8 +53,8 @@ const names = [
     },
   },
   {
-    image:
-      "https://i.pinimg.com/564x/a8/21/83/a82183f88a40aef6e47629b1fb3cec96.jpg",
+    id: 4,
+    image: "/names-images/four.jpg",
     imageBrightness: "45%",
     arabic: {
       name: "ٱلْقُدُّوسُ",
@@ -68,8 +70,8 @@ const names = [
     },
   },
   {
-    image:
-      "https://i.pinimg.com/564x/86/f9/d3/86f9d34a8f6ae41717dfa98e4a8e7eaa.jpg",
+    id: 5,
+    image: "/names-images/five.jpg",
     imageBrightness: "40%",
     arabic: {
       name: "ٱلْسَّلَامُ",
@@ -85,6 +87,7 @@ const names = [
     },
   },
   {
+    id: 6,
     image:
       "https://i.pinimg.com/750x/91/b2/d5/91b2d572151f1d6e49720b9bad0940f9.jpg",
     imageBrightness: "45%",
@@ -103,4 +106,94 @@ const names = [
   },
 ];
 
-export default names;
+const singleNamesData = [
+  {
+    arabic: {
+      name: "الرَّحْمَنُ",
+      meaning: "",
+    },
+    english: {
+      name: "AR-RAHMAAN",
+      meaning: "The Entirely Merciful",
+    },
+    intro: `Development in progress`,
+    quranMentions: [
+      {
+        contentType: "text",
+        content: `From the root ra-ha-mim (ر ح م), which has the following classical 
+                  Arabic connotations: to have tenderness, kindness to love to have mercy,
+                  to have pity to show favor and goodness to have all that is required for
+                  beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total
+                  114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م),
+                  which has the following classical Arabic connotations: to have tenderness,
+                  kindness to love to have mercy, to have pity to show favor and goodness to
+                  have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned
+                  in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
+      },
+      {
+        contentType: "ayah",
+        content: `“That is the Knower of the seen and unseen—the Almighty, Most Merciful”`,
+        ayahNo: "32:6",
+        link: "https://quran.com/32/6",
+      },
+      {
+        contentType: "ayah",
+        content: `“Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever
+                  you call, He has the Most Beautiful Names.” Do not recite your prayers too loudly
+                  or silently, but seek a way between.”`,
+        ayahNo: "17:10",
+        link: "https://quran.com/17/110",
+      },
+      {
+        contentType: "text",
+        content: `Almighty Himself described the name Al-Rahman as being commensurate with the name Allah`,
+      },
+      {
+        contentType: "ayah",
+        content: `“She appealed, “I truly seek refuge in the Most Compassionate from you! ˹So leave me alone˺ if you are God-fearing.””`,
+        ayahNo: "19:18",
+        link: "https://quran.com/19/18",
+      },
+      {
+        contentType: "text",
+        content: `Mary asks for protection from Al-Rahman against one whom she perceives as an unknown man entering her private chambers, but who in fact is the Archangel Jibreel (Gabriel). She is asking for protection from the Most Powerful, the Almighty, not mercy from "the Beneficent"! (see editor's note 3). She is asking for protection from Al-Rahman against the "intruder" in order also to frighten the "intruder", for which situation the appellation "the Merciful" or "The Most Gracious" would hardly instill fear, and hence be unsuitable. Obviously, Maryam knew the meaning of the name Al-Rahman and we are shown here by Al-Rahman himself (who, according to 55:2, teaches us the Quran) that she used His name appropriately.`,
+      },
+      {
+        contentType: "ayah",
+        content: `“O  dear father! I truly fear that you will be touched by a torment from the Most Compassionate, and become Satan's companion ˹in Hell˺.””`,
+        ayahNo: "19:45",
+        link: "https://quran.com/19/45",
+      },
+      {
+        contentType: "text",
+        content: `The choice of which name for God to use by Abraham is very significant. Abraham wanted to warn his father and scare him of a great punishment from God. Abraham chose the name Al-Rahman knowing that great punishment is more appropriate to scare his father when associated to an Almighty rather a Most Merciful. This again sheds great light on the true meaning of the name Al-Rahman. It is within the bounds of the Almighty, His authority and power to afflict punishment, but it is not within the definition of "mercy" or "beneficence" or "graciousness" to afflict punishment or cause torture.`,
+      },
+    ],
+    hadithMentions: [
+      {
+        contentType: "hadees",
+        narrated: "Abu Huraira",
+        content: `The Prophet (ﷺ) said, "The word 'Ar-Rahm (womb) derives its
+                    name from Ar-Rahman (i.e., one of the names of Allah) and Allah
+                    said: 'I will keep good relation with the one who will keep good
+                    relation with you, (womb i.e. Kith and Kin) and sever the relation
+                     with him who will sever the relation with you, (womb, i.e. Kith and Kin).`,
+        hadeesNo: "Bukhari:5988",
+        link: "https://sunnah.com/bukhari:5988",
+      },
+    ],
+
+    metaTitle: "Ar Rahmaan Meaning: The Entirely Merciful (99 Names of Allah)",
+    metaDescription: `Explore Ar Rahmaan (الرَّحْمَنُ)  one of the 99 names of Allah,
+                      representing him with the attribute The Most Merciful. Discover
+                      the divine attributes of Ar Rahmaan and the significance of
+                      the 99 names of Allah on our website.`,
+  },
+];
+
+const namesIndex: NamesIndex = singleNamesData.reduce((acc, val) => {
+  acc[val.english.name] = val;
+  return acc;
+}, {} as NamesIndex);
+
+export { names, namesIndex };

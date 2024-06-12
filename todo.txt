@@ -1,7 +1,13 @@
 #generic
 1. Download fonts or use fonts like acme-dashboard in fonts
 2. Lazy loading https://www.reddit.com/r/nextjs/comments/17ce7o9/best_way_to_manage_500_images_on_an_architecture/
+
 #hero
 1. Download scroll down image and convert to jpg goto next images
+
 #names
 1. Reduce tailwind css
+2. Change structure of names and logic
+
+#single-name
+1. Add hover effect in 

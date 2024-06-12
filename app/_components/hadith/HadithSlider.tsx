@@ -25,8 +25,8 @@ const HadithSlider = () => {
   return (
     <div className="mt-40 px-2">
       <Slider {...settings}>
-        {hadiths.map((hadith) => {
-          return <Hadith hadith={hadith} />;
+        {hadiths.map((hadith, index) => {
+          return <Hadith key={index} hadith={hadith} />;
         })}
       </Slider>
     </div>

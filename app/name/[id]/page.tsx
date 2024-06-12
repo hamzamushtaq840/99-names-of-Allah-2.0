@@ -3,8 +3,11 @@ import { fetchName } from "@/app/lib/data";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { FaPlay } from "react-icons/fa";
+import { HiSpeakerWave } from "react-icons/hi2";
+import { FaPause } from "react-icons/fa6";
 
-export default async function Page({ params }: { params: { id: string } }) {
+export default function Page({ params }: { params: { id: string } }) {
   const id = params.id;
   const name = fetchName(id);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -58,21 +61,14 @@ export default async function Page({ params }: { params: { id: string } }) {
             {name?.arabic?.name}
           </h1>
           {isPlaying ? (
-            <Image
-              src="/playing2.gif"
-              className="xsm:w-[30px] cursor-not-allowed bg-transparent"
-              alt="Infinity"
-              width={40}
-              height={80}
+            <FaPause
+              onClick={playAudio}
+              className="cursor-not-allowed text-3xl text-orange"
             />
           ) : (
-            <Image
-              src="/play.png"
+            <HiSpeakerWave
               onClick={playAudio}
-              className="xsm:w-[30px] cursor-pointer"
-              alt="Infinity"
-              width={40}
-              height={80}
+              className="cursor-pointer text-3xl text-orange"
             />
           )}
         </div>
@@ -136,7 +132,7 @@ export default async function Page({ params }: { params: { id: string } }) {
                   );
                 else
                   return (
-                    <p className="quranAyah2 outfit flex flex-col rounded bg-[#2020218c] p-4 text-justify text-[16px] leading-[28px] text-[#c5ccd3]">
+                    <p className="quranAyah2 outfit flex flex-col rounded bg-[#252836ba] p-4 text-justify text-[16px] leading-[28px] text-[#c5ccd3]">
                       <span className="mb-1 self-start text-[12px] font-[700] uppercase text-[#ccc]">
                         English Translation:
                       </span>
@@ -169,7 +165,7 @@ export default async function Page({ params }: { params: { id: string } }) {
                   );
                 else
                   return (
-                    <p className="quranAyah2 outfit flex flex-col rounded bg-[#2020218c] p-4 text-justify text-[16px] leading-[28px] text-[#c5ccd3]">
+                    <p className="quranAyah2 outfit flex flex-col rounded bg-[#252836ba] p-4 text-justify text-[16px] leading-[28px] text-[#c5ccd3]">
                       <span className="mb-1 self-start text-[12px] font-[700] uppercase text-[#ccc]">
                         Narrated{" "}
                         <span className="italic text-white">

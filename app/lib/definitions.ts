@@ -20,7 +20,22 @@ export type NameAttr = {
   };
 };
 
-type singleNamesData = {
+export type QuranMentions = {
+  contentType: string;
+  content: string;
+  ayahNo?: string;
+  link?: string;
+};
+
+export type HadithMentions = {
+  contentType: string;
+  content: string;
+  narrated: string;
+  hadeesNo: string;
+  link: string;
+};
+
+export type singleNamesData = {
   arabic: {
     name: string;
     meaning: string;
@@ -30,19 +45,8 @@ type singleNamesData = {
     meaning: string;
   };
   intro: string;
-  quranMentions: {
-    contentType: string;
-    content: string;
-    ayahNo?: string;
-    link?: string;
-  }[];
-  hadithMentions: {
-    contentType: string;
-    content: string;
-    narrated: string;
-    hadeesNo: string;
-    link: string;
-  }[];
+  quranMentions: QuranMentions[];
+  hadithMentions: HadithMentions[];
   metaTitle: string;
   metaDescription: string;
 };

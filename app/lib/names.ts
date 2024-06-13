@@ -121,14 +121,14 @@ const singleNamesData = [
       {
         contentType: "text",
         content: `From the root ra-ha-mim (ر ح م), which has the following classical 
-                  Arabic connotations: to have tenderness, kindness to love to have mercy,
-                  to have pity to show favor and goodness to have all that is required for
-                  beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total
-                  114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م),
-                  which has the following classical Arabic connotations: to have tenderness,
-                  kindness to love to have mercy, to have pity to show favor and goodness to
-                  have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned
-                  in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
+                    Arabic connotations: to have tenderness, kindness to love to have mercy,
+                    to have pity to show favor and goodness to have all that is required for
+                    beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total
+                    114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م),
+                    which has the following classical Arabic connotations: to have tenderness,
+                    kindness to love to have mercy, to have pity to show favor and goodness to
+                    have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned
+                    in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
       },
       {
         contentType: "ayah",
@@ -139,8 +139,8 @@ const singleNamesData = [
       {
         contentType: "ayah",
         content: `“Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever
-                  you call, He has the Most Beautiful Names.” Do not recite your prayers too loudly
-                  or silently, but seek a way between.”`,
+                    you call, He has the Most Beautiful Names.” Do not recite your prayers too loudly
+                    or silently, but seek a way between.”`,
         ayahNo: "17:10",
         link: "https://quran.com/17/110",
       },
@@ -182,7 +182,6 @@ const singleNamesData = [
         link: "https://sunnah.com/bukhari:5988",
       },
     ],
-
     metaTitle: "Ar Rahmaan Meaning: The Entirely Merciful (99 Names of Allah)",
     metaDescription: `Explore Ar Rahmaan (الرَّحْمَنُ)  one of the 99 names of Allah,
                       representing him with the attribute The Most Merciful. Discover

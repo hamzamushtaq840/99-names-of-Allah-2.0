@@ -154,7 +154,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #fb552234;
+  background: rgba(86, 58, 50, 0.432);
   border-radius: 10px;
 }
 

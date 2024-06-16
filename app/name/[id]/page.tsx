@@ -31,11 +31,12 @@ export default async function Page({ params }: { params: { id: string } }) {
   }
 
   return (
-    <div className="flex min-h-[100vh] flex-col items-center">
-      <div className="flex items-center gap-4">
+    <main className="flex min-h-[100vh] flex-col items-center">
+      <section className="flex items-center gap-4">
         <ArabicName arabicName={name?.arabic?.name} />
         <NewAudio englishName={name?.english?.name} />
-      </div>
+      </section>
+
       <Heading content={name?.english?.name} />
       <Intro intro={name?.intro} />
 
@@ -44,6 +45,6 @@ export default async function Page({ params }: { params: { id: string } }) {
         <QuranMention mentions={name.quranMentions} />
         <HadithMention mentions={name.hadithMentions} />
       </section>
-    </div>
+    </main>
   );
 }

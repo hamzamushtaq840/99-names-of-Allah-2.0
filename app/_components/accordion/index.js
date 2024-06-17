@@ -1,6 +1,6 @@
 "use client";
+import { useState } from "react";
 import { accordions } from "./_accordians";
-import React, { useState } from "react";
 
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState([]);

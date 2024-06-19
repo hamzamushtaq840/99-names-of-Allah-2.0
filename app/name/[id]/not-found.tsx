@@ -3,7 +3,7 @@ import { CiFaceFrown } from "react-icons/ci";
 
 export default function NotFound() {
   return (
-    <main className="flex h-[calc(100vh-160px)] flex-col items-center justify-center gap-2">
+    <div className="flex h-[calc(100vh-160px)] flex-col items-center justify-center gap-2">
       <CiFaceFrown className="h-20 w-20 text-gray-400" />
       <h2 className="text-xl font-semibold text-white">404 Not Found</h2>
       <p className="text-white">Could not find the requested name.</p>
@@ -13,6 +13,6 @@ export default function NotFound() {
       >
         Go Back
       </Link>
-    </main>
+    </div>
   );
 }

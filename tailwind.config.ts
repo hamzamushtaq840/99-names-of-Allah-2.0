@@ -20,6 +20,14 @@ const config: Config = {
         line: "#a1a1a1",
       },
     },
+    screens: {
+      xsm: { min: "0px", max: "577px" },
+      sm: { min: "577px", max: "768px" },
+      md: { min: "768px", max: "1024px" },
+      lg: { min: "1024px", max: "1280px" },
+      xl: { min: "1280px", max: "1700px" },
+      "2xl": { min: "1700px", max: "30000px" },
+    },
   },
   plugins: [],
 };

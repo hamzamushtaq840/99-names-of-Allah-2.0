@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="mx-28 mt-16 h-[calc(100vh-160px)] bg-black">
+    <section className="mx-28 mt-16 h-[calc(100vh-160px)] bg-black xsm:mx-10 xsm:mt-6 xsm:h-auto">
       <h1 className="readex name text-white">99 NAMES OF ALLAH</h1>
 
-      <div className="mt-10 grid grid-cols-2 gap-10">
-        <div className="bg-line h-[1px] w-full"></div>
-        <div className="mt-2 flex flex-col text-xl text-grey">
+      <div className="mt-10 grid grid-cols-2 gap-10 xsm:flex xsm:flex-col">
+        <div className="h-[1px] w-full bg-line"></div>
+        <div className="mt-2 flex flex-col text-xl text-grey xsm:gap-4">
           <span className="readex font-light">
             He is Allah, the Creator, the Originator, The Fashioner, to Him
             belong the most beautiful names...
@@ -18,7 +18,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="mt-20 flex justify-center">
+      <div className="mt-20 flex justify-center xsm:my-10">
         <Image
           src="https://assets-global.website-files.com/65ec76596f839f619b8b82fe/660a48e25f4b7a8e5c1ed820_Scroll.webp"
           loading="eager"

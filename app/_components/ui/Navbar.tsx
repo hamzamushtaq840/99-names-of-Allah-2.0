@@ -4,8 +4,8 @@ import { IoMdMenu } from "react-icons/io";
 
 const Navbar = () => {
   return (
-    <nav className="readex xsm:mx-10 xsm:grid-cols-2 mx-28 grid h-24 grid-cols-3 items-center text-white">
-      <ul className="xsm:hidden flex gap-7 font-medium">
+    <nav className="readex mx-28 grid h-24 grid-cols-3 items-center text-white xsm:mx-10 xsm:flex xsm:justify-between">
+      <ul className="flex gap-7 font-medium xsm:hidden">
         <li>
           <Link className="hover:text-orange" href="/#hadiths">
             Hadiths
@@ -23,10 +23,10 @@ const Navbar = () => {
       </span>
 
       <ul className="flex justify-end gap-7 font-medium">
-        <Link className="xsm:hidden hover:text-orange" href="/#hadiths">
+        <Link className="hover:text-orange xsm:hidden" href="/#hadiths">
           Contact Us
         </Link>
-        <IoMdMenu className="xsm:block hidden text-2xl" />
+        <IoMdMenu className="hidden text-2xl xsm:block" />
       </ul>
     </nav>
   );

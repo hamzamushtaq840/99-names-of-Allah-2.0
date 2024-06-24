@@ -121,14 +121,14 @@ const singleNamesData = [
       {
         contentType: "text",
         content: `From the root ra-ha-mim (ر ح م), which has the following classical 
-                    Arabic connotations: to have tenderness, kindness to love to have mercy,
-                    to have pity to show favor and goodness to have all that is required for
-                    beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total
-                    114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م),
-                    which has the following classical Arabic connotations: to have tenderness,
-                    kindness to love to have mercy, to have pity to show favor and goodness to
-                    have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned
-                    in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
+                  Arabic connotations: to have tenderness, kindness to love to have mercy,
+                  to have pity to show favor and goodness to have all that is required for
+                  beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total
+                  114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م),
+                  which has the following classical Arabic connotations: to have tenderness,
+                  kindness to love to have mercy, to have pity to show favor and goodness to
+                  have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned
+                  in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
       },
       {
         contentType: "ayah",
@@ -190,9 +190,4 @@ const singleNamesData = [
   },
 ];
 
-const namesIndex: NamesIndex = singleNamesData.reduce((acc, val) => {
-  acc[val.english.name] = val;
-  return acc;
-}, {} as NamesIndex);
-
-export { names, namesIndex };
+export { names, singleNamesData };

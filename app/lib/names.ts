@@ -1,5 +1,3 @@
-import { NamesIndex } from "./definitions";
-
 const names = [
   {
     id: 1,

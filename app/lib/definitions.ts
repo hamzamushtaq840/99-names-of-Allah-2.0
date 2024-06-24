@@ -50,7 +50,3 @@ export type singleNamesData = {
   metaTitle: string;
   metaDescription: string;
 };
-
-export type NamesIndex = {
-  [key: string]: singleNamesData;
-};

@@ -17,13 +17,7 @@ const Unnamed = () => {
       <div className="relative h-[649px] min-w-[449px] overflow-hidden rounded-xl xsm:h-[500px] xsm:min-w-full xsm:p-10">
         {/* "https://i.pinimg.com/originals/f2/35/01/f235016367d4708d2b1e851a338dc51b.jpg" */}
         {/* "https://i.pinimg.com/originals/c6/42/9c/c6429ca185919142ff176c3be02ea4f1.jpg" */}
-        <Image
-          src={
-            "https://i.pinimg.com/originals/b3/e1/46/b3e1465360a979b69676242154ed86d3.jpg"
-          }
-          alt="My Image"
-          fill
-        />
+        <Image src={"/unnamed.jpg"} loading="eager" alt="My Image" fill />
       </div>
     </div>
   );

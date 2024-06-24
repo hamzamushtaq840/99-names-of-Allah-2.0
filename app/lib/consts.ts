@@ -49,7 +49,7 @@ export const names: NamesType = [
       meaning: "انتہائی مہربان",
     },
     singlePageData: {
-      intro: `Development in progress`,
+      intro: `Ar Rahman, a profound attribute of Allah, holds a deep and multifaceted significance according to Islamic scholars. This divine name encapsulates the essence of divine mercy in two profound ways. Firstly, it signifies that mercy itself is one of Allah's inherent attributes, exemplifying His boundless compassion and benevolence. Secondly, Ar-Rahman reflects Allah's unwavering and all encompassing mercy extended to all of His creations, transcending boundaries and encompassing every corner of existence.   and that is referring to the power and authority and all-encompassing might of Allah, glory to Him in the highest! The name encompasses the meaning of all the attributes that are exclusively His as The Almighty!. ---------In 19:85-96, one of the most powerful and clarifying illuminations of the meaning of the name Al-Rahman, used here repeatedly, forcefully condemns the idol-worship of Aissa (Jesus) by Christians and any allegation that the Almighty (all glory to Him in the highest) shares power with any other, or procreates. No, He is the Creator, alone, and there is none like Him, and all others and all else are creatures, categorically different, and all are utterly and completely subjected to His authority and are His worshippers: recognise it or not! These ayat mention that the mountains, the heavens and the earth all prostrate in awe and worship of Al-Rahman. They vividly describe how this blasphemy invokes His wrath. Is this the description of "The Beneficent" or "Most Gracious"? Do these ayat describe a benevolent benefactor (as in "beneficent") or a generous host (as in "gracious"), "graciously" accommodating His "guests" or the recipients of His largesse, or a kind-hearted ruler forgiving His subjects, or do they describe none but the Almighty? For a word of such magnitude, such immense significance, an inept substitute for the true meaning cannot be simply brushed off as a minor 'mistake'.------------ Just as the name Al-Raheem (the All-Merciful) is mentioned in the Quran (in reference to Allah) exactly twice as many times (114 times) as the mentioning of the name Al-Rahman (The Almighty) (57 times), so His power, being the "heavier" element, is balanced with twice as much mercy, such that His mercy "is as wide as everything" or encompasses all that exists (7:156).`,
       quranMentions: [
         {
           contentType: "text",
@@ -1829,4 +1829,3 @@ export const names: NamesType = [
     metaDescription: "",
   },
 ];
-

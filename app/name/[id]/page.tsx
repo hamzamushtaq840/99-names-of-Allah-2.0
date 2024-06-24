@@ -40,11 +40,11 @@ export default async function Page({ params }: { params: { id: string } }) {
       <Heading content={name?.english?.name} />
       <Intro intro={name?.intro} />
 
-      <p className="rubik mt-8 text-[26px] font-[600] text-white">Mentions</p>
+      {/* <p className="rubik mt-8 text-[26px] font-[600] text-white">Mentions</p>
       <section className="xsm:flex-col mt-6 flex w-full justify-center gap-12 px-[55px]">
         <QuranMention mentions={name.quranMentions} />
         <HadithMention mentions={name.hadithMentions} />
-      </section>
+      </section> */}
     </main>
   );
 }

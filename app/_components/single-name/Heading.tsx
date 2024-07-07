@@ -1,10 +1,20 @@
 import React from "react";
+import NewAudio from "./NameAudio";
+import ArabicName from "./ArabicName";
 
-const Heading = ({ content }: { content: string }) => {
+const Heading = ({
+  name,
+}: {
+  name: {
+    arabic: { name: string };
+    english: { name: string };
+  };
+}) => {
   return (
-    <h1 className="lime xsm:text-[18px] mb-4 mt-[-20px] text-center text-[24px] font-[400] text-white">
-      {content}
-    </h1>
+    <div className="flex items-center gap-4">
+      <ArabicName name={name?.arabic?.name} />
+      <NewAudio name={name?.english?.name} />
+    </div>
   );
 };
 

@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { FaPause } from "react-icons/fa6";
 import { HiSpeakerWave } from "react-icons/hi2";
 
-const NewAudio = ({ englishName }: { englishName: string }) => {
+const NameAudio = ({ name }: { name: string }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null); // Add a ref to keep track of the audio element
 
@@ -11,7 +11,7 @@ const NewAudio = ({ englishName }: { englishName: string }) => {
     const audio = new Audio();
 
     if (isPlaying) {
-      const audioFileName = `${englishName}.mp3`;
+      const audioFileName = `${name}.mp3`;
       const audioPath = `/namesAudios/${audioFileName}`;
       audio.src = audioPath;
       audio.play();
@@ -37,7 +37,7 @@ const NewAudio = ({ englishName }: { englishName: string }) => {
         audioRef.current.currentTime = 0;
       }
     };
-  }, [isPlaying, englishName]);
+  }, [isPlaying, name]);
 
   const playAudio = () => {
     setIsPlaying(true);
@@ -59,4 +59,4 @@ const NewAudio = ({ englishName }: { englishName: string }) => {
   );
 };
 
-export default NewAudio;
+export default NameAudio;

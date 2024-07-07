@@ -1,5 +1,6 @@
 import ArabicName from "@/app/_components/single-name/ArabicName";
-import NewAudio from "@/app/_components/single-name/Audio";
+import NameAudio from "@/app/_components/single-name/NameAudio";
+import EnglishName from "@/app/_components/single-name/EnglishName";
 import HadithMention from "@/app/_components/single-name/HadithMention";
 import Heading from "@/app/_components/single-name/Heading";
 import Intro from "@/app/_components/single-name/Intro";
@@ -7,6 +8,8 @@ import QuranMention from "@/app/_components/single-name/QuranMention";
 import { fetchName } from "@/app/lib/data";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import PreviousButton from "@/app/_components/single-name/PreviousButton";
+import NextButton from "@/app/_components/single-name/NextButton";
 
 export async function generateMetadata({
   params,
@@ -32,12 +35,15 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <main className="flex min-h-[100vh] flex-col items-center">
-      <section className="flex items-center gap-4">
-        <ArabicName arabicName={name?.arabic?.name} />
-        <NewAudio englishName={name?.english?.name} />
-      </section>
+      <div className="flex items-center gap-10">
+        <PreviousButton prevName={name?.prevName!} />
+        <Heading name={name} />
+        {/* <ArabicName name={name?.arabic?.name} /> */}
+        {/* <NameAudio name={name?.english?.name} /> */}
+        <NextButton nextName={name?.nextName!} />
+      </div>
 
-      <Heading content={name?.english?.name} />
+      <EnglishName name={name?.english?.name} />
       <Intro intro={name?.intro} />
 
       {/* <p className="rubik mt-8 text-[26px] font-[600] text-white">Mentions</p>

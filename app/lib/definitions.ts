@@ -35,7 +35,7 @@ export type HadithMentions = {
   link: string;
 };
 
-export type singleNamesData = {
+export type singleNamesDataAttr = {
   arabic: {
     name: string;
     meaning: string;
@@ -44,9 +44,11 @@ export type singleNamesData = {
     name: string;
     meaning: string;
   };
-  intro: string;
+  intro: string[];
   quranMentions: QuranMentions[];
   hadithMentions: HadithMentions[];
   metaTitle: string;
   metaDescription: string;
+  prevName?: string;
+  nextName?: string;
 };

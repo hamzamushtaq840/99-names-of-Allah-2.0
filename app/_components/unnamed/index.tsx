@@ -5,13 +5,15 @@ const Unnamed = () => {
     <div className="mx-24 mb-20 flex items-center justify-between xsm:mx-10 xsm:mb-12 xsm:flex-col-reverse xsm:gap-10">
       <div className="flex flex-col gap-6 pr-20 xsm:pr-0">
         <h1 className="readex mt-0 text-5xl font-semibold leading-[120%] text-white xsm:text-3xl">
-          Lorem ipsum dolor sit <span className="text-[#FB5322]">Ipsum</span>
-          Lorem ipsum dolor sit amet consectetur.
+          Intro to The 99 Names of <span className="text-[#FB5322]">Allah</span>
         </h1>
-        <span className="readex text-xl font-[300] text-[#a4a4a4] xsm:text-lg">
-          Direct your energy towards growing your business, and entrust me with
-          the task of efficiently presenting your business in the digital world,
-          setting it apart from competitors.
+        <span className="readex w-[90%] text-xl font-[300] leading-8 text-[#a4a4a4] xsm:w-full xsm:text-lg">
+          The 99 names of Allah (known as Asma ul Husna) serve as a mosaic of
+          His infinite attributes, each one reflecting a unique quality of the
+          Creator that resonates with the human experience. These names are not
+          just titles; they are descriptors of Allah's actions in the world and
+          His relationship with creation. In the Quran, Allah introduces Himself
+          through these names, laying a foundation for love and understanding.
         </span>
       </div>
       <div className="relative h-[649px] min-w-[449px] overflow-hidden rounded-xl xsm:h-[500px] xsm:min-w-full xsm:p-10">

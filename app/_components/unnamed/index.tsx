@@ -11,9 +11,10 @@ const Unnamed = () => {
           The 99 names of Allah (known as Asma ul Husna) serve as a mosaic of
           His infinite attributes, each one reflecting a unique quality of the
           Creator that resonates with the human experience. These names are not
-          just titles; they are descriptors of Allah's actions in the world and
-          His relationship with creation. In the Quran, Allah introduces Himself
-          through these names, laying a foundation for love and understanding.
+          just titles; they are descriptors of Allah&apos;s actions in the world
+          and His relationship with creation. In the Quran, Allah introduces
+          Himself through these names, laying a foundation for love and
+          understanding.
         </span>
       </div>
       <div className="relative h-[649px] min-w-[449px] overflow-hidden rounded-xl xsm:h-[500px] xsm:min-w-full xsm:p-10">

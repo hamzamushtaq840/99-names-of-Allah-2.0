@@ -43,19 +43,13 @@ const NameAudio = ({ name }: { name: string }) => {
     setIsPlaying(true);
   };
   return (
-    <>
+    <button onClick={playAudio}>
       {isPlaying ? (
-        <FaPause
-          onClick={playAudio}
-          className="cursor-not-allowed text-3xl text-orange"
-        />
+        <FaPause className="cursor-not-allowed text-3xl text-orange" />
       ) : (
-        <HiSpeakerWave
-          onClick={playAudio}
-          className="cursor-pointer text-3xl text-orange"
-        />
+        <HiSpeakerWave className="cursor-pointer text-3xl text-orange" />
       )}
-    </>
+    </button>
   );
 };
 

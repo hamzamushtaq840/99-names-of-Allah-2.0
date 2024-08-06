@@ -1,4 +1,5 @@
 import Image from "next/image";
+import LocomotiveScroll from "./LocomotiveScroll";
 
 export default function Hero() {
   return (
@@ -27,6 +28,7 @@ export default function Hero() {
           alt="scroll"
         />
       </div>
+      <LocomotiveScroll />
     </section>
   );
 }

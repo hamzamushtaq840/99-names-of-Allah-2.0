@@ -23,10 +23,14 @@ const Navbar = () => {
       </span>
 
       <ul className="flex justify-end gap-7 font-medium">
-        <Link className="hover:text-orange xsm:hidden" href="/#hadiths">
-          Contact Us
-        </Link>
-        <IoMdMenu className="hidden text-2xl xsm:block" />
+        <li>
+          <Link className="hover:text-orange xsm:hidden" href="/#hadiths">
+            Contact Us
+          </Link>
+        </li>
+        <li>
+          <IoMdMenu className="hidden text-2xl xsm:block" />
+        </li>
       </ul>
     </nav>
   );

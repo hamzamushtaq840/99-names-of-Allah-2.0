@@ -8,7 +8,7 @@ const Card = ({ name, index }: { name: NameAttr; index: number }) => {
     <Link
       href={`/name/${name.english.name}`}
       key={index}
-      className="group relative h-[527px] cursor-pointer overflow-hidden rounded-sm transition-transform duration-300 xsm:h-[350px] xsm:rounded-lg"
+      className="group relative h-[527px] cursor-pointer overflow-hidden rounded-lg transition-transform duration-300 xsm:h-[350px] xsm:rounded-lg"
     >
       <CardImage name={name} />
       <CardDescription name={name} index={index} />

@@ -3,17 +3,19 @@ import LocomotiveScroll from "./LocomotiveScroll";
 
 export default function Hero() {
   return (
-    <section className="mx-28 mt-16 h-[calc(100vh-160px)] bg-black xsm:mx-10 xsm:mt-6 xsm:h-auto">
-      <h1 className="readex name text-white">99 NAMES OF ALLAH</h1>
+    <section className="mx-28 mt-16 h-[calc(100vh-160px)] xsm:mx-10 xsm:mt-6 xsm:h-auto">
+      <h1 className="name text-whiteHeading">
+        99 NAMES OF <span className="text-orange">ALLAH</span>
+      </h1>
 
-      <div className="mt-10 grid grid-cols-2 gap-10 xsm:flex xsm:flex-col">
+      <div className="mt-6 grid grid-cols-2 gap-10 xsm:flex xsm:flex-col">
         <div className="h-[1px] w-full bg-line"></div>
-        <div className="mt-2 flex flex-col text-xl text-grey xsm:gap-4">
-          <span className="readex font-light">
+        <div className="text-whiteHeading mt-10 flex flex-col xsm:mt-1 xsm:gap-5">
+          <span className="text-xl leading-[37px] tracking-wide xsm:text-base xsm:leading-[34px]">
             He is Allah, the Creator, the Originator, The Fashioner, to Him
-            belong the most beautiful names...
+            belong the most beautiful names .....
           </span>
-          <span className="readex ml-auto text-sm text-orange">
+          <span className="ml-auto rounded-md bg-[#cccccc3a] px-2 py-1 text-sm text-[#ffffffae]">
             Surah Al-Hashr 59:24
           </span>
         </div>

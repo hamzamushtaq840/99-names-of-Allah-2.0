@@ -15,7 +15,7 @@
 }
 
 html {
-  background-color: black;
+  background-color: #161617;
   scroll-behavior: initial;
 }
 
@@ -52,9 +52,9 @@ html {
 
 .text-outline {
   color: rgba(255, 255, 255, 0);
-  letter-spacing: -2px;
+  letter-spacing: 4px;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(229, 228, 228, 0.5);
+  -webkit-text-stroke-color: rgb(229, 228, 228);
   text-transform: uppercase;
   /* font-size: 6.75rem; */
   font-weight: 600;

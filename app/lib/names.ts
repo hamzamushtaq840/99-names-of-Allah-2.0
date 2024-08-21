@@ -114,26 +114,34 @@ const singleNamesData = [
       name: "AR-RAHMAAN",
       meaning: "The Entirely Merciful",
     },
-    intro: [
-      `Allah calls Himself Ar-Rahman. Rahman is derived from the root "ر-ح-م" (r-h-m), 
-            which is related to mercy and compassion. In Arabic, Rahman takes the form of "faʿlan," 
-            which is an "ism sifa" (a descriptive noun) indicating a state of being. For Allah, this 
-            term signifies mercy to the utmost degree.`,
-      `'Ar-Rahman' never appears in the Quran followed by 'with them' or 'to them' because it 
-            means that “mercy” is Allah’s inherent attribute. This mercy is shown through His 
-            boundless compassion and kindness: the lush green plants 🍃 and trees 🌳, the simple joys of 
-            home life, the breath of life in our lungs, and the rain 🌧️ that nourishes the earth. 
-            Ar-Rahman reflects Allah’s steady and all-encompassing mercy to all creation.`,
-      `The name Ar-Rahman (The All-Merciful) is mentioned in the Quran exactly half as many times 
-            (57 times) as the name Allah (114 times). All creations are different and completely 
-            under His authority. The mountains, the heavens, and the earth all bow in awe and worship 
-            of Ar-Rahman. Allah’s mercy to disbelievers is only for this world. In the afterlife, when they ask 
-            Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing, 
-            showing that His mercy was truly not with them in the end.`,
-      // ` Allah’s mercy to disbelievers is only for this world. In the afterlife, when they ask
-      //       Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing,
-      //       showing that His mercy was truly not with them in the end.`,
-    ],
+    intro: `
+    <p>
+      Allah calls Himself Ar-Rahman. Rahman is derived from the root "ر-ح-م" (r-h-m),
+      which is related to mercy and compassion. In Arabic, Rahman takes the form of "faʿlan,"
+      which is an "ism sifa" (a descriptive noun) indicating a state of being. For Allah, this
+      term signifies mercy to the utmost degree. 
+    </p>
+    </br>
+    <p>
+      <b className='text-white'>Ar-Rahman</b> never appears in the Quran followed by 'with them' or 'to them' because it
+      means that “mercy” is Allah's inherent attribute. This mercy is shown through His
+      boundless compassion and kindness: the lush green plants 🍃 and trees 🌳, the simple joys of
+      home life, the breath of life in our lungs, and the rain 🌧️ that nourishes the earth.
+      Ar-Rahman reflects Allah's steady and all-encompassing mercy to all creation.
+    </p>
+    </br>
+    <p>
+        The name Ar-Rahman (The All-Merciful) is mentioned in the Quran exactly half as many times
+        (57 times) as the name Allah (114 times). All creations are different and completely
+        under His authority. The mountains, the heavens, and the earth all bow in awe and worship
+        of Ar-Rahman. Allah's mercy to disbelievers is only for this world. In the afterlife, when they ask
+        Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing,
+        showing that His mercy was truly not with them in the end.
+    </p>
+    `,
+    // ` Allah’s mercy to disbelievers is only for this world. In the afterlife, when they ask
+    //       Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing,
+    //       showing that His mercy was truly not with them in the end.`,
     quranMentions: [
       {
         contentType: "text",

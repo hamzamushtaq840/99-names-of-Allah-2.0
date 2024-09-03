@@ -7,7 +7,7 @@ const Hadith = ({ hadith }: { hadith: HadithAttr }) => {
         <p className="readex w-[33%] text-4xl font-semibold text-white xsm:w-full xsm:text-2xl">
           {hadith.reference}
         </p>
-        <p className="readex w-[66%] text-2xl leading-relaxed text-whiteSub xsm:w-full xsm:text-xl">
+        <p className="readex w-[66%] text-2xl leading-relaxed text-[#a4a4a4] xsm:w-full xsm:text-xl">
           {hadith.content}
         </p>
       </div>

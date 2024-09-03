@@ -12,9 +12,10 @@ const PreviousButton = ({ prevName }: { prevName: string }) => {
         pointerEvents: !prevName ? "none" : "auto",
       }}
       className={clsx("text-4xl", {
-        "cursor-pointer text-white/90 hover:text-white/70": prevName,
+        "cursor-pointer text-[#FDC237]/75 hover:text-[#FDC237]/90": prevName,
         "text-grey": !prevName,
       })}
+      replace
     >
       <IoIosArrowBack />
     </Link>

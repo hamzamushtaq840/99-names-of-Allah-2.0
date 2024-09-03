@@ -1,13 +1,15 @@
 import Image from "next/image";
+import { gulzar } from "../ui/fonts";
 
 const Unnamed = () => {
   return (
-    <div className="mx-24 mb-20 flex items-center justify-between xsm:mx-10 xsm:mb-12 xsm:flex-col-reverse xsm:gap-10">
+    <div className="mx-24 mb-20 mt-20 flex items-center justify-between xsm:mx-10 xsm:mb-12 xsm:flex-col-reverse xsm:gap-10">
       <div className="flex flex-col gap-6 pr-20 xsm:pr-0">
-        <h1 className="readex mt-0 text-5xl font-semibold leading-[120%] text-white xsm:text-3xl">
-          Intro to The 99 Names of <span className="text-[#FB5322]">Allah</span>
+        <h1 className="readex mt-0 text-6xl font-semibold leading-[120%] text-white xsm:text-3xl">
+          Intro to The 99 Names of <span className="text-[#FB5322]">Allah</span>{" "}
+          {/* <span className={`${gulzar.className} mt-[-100px]`}>ﷻ</span> */}
         </h1>
-        <span className="readex w-[90%] text-xl font-[300] leading-8 text-[#a4a4a4] xsm:w-full xsm:text-lg">
+        <span className="readex w-[95%] text-xl font-light leading-[31px] text-[#a4a4a4] xsm:w-full xsm:text-lg">
           The 99 names of Allah (known as Asma ul Husna) serve as a mosaic of
           His infinite attributes, each one reflecting a unique quality of the
           Creator that resonates with the human experience. These names are not

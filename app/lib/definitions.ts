@@ -45,8 +45,8 @@ export type singleNamesDataAttr = {
     meaning: string;
   };
   intro?: string;
-  quranMentions: QuranMentions[];
-  hadithMentions: HadithMentions[];
+  quranMentions?: QuranMentions[];
+  hadithMentions?: HadithMentions[];
   metaTitle: string;
   metaDescription: string;
   prevName?: string;

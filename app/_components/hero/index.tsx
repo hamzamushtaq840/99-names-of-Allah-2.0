@@ -3,15 +3,17 @@ import LocomotiveScroll from "./LocomotiveScroll";
 
 export default function Hero() {
   return (
-    <section className="mx-28 mt-16 h-[calc(100vh-160px)] xsm:mx-10 xsm:mt-6 xsm:h-auto">
-      <h1 className="name text-whiteHeading">
+    <section className="mx-28 mt-24 xsm:mx-10 xsm:mt-6 xsm:h-auto">
+      {/*// TODO: add className here of font readex  */}
+      <h1 className="readex name text-whiteHeading">
         99 NAMES OF <span className="text-orange">ALLAH</span>
       </h1>
 
       <div className="mt-6 grid grid-cols-2 gap-10 xsm:flex xsm:flex-col">
         <div className="h-[1px] w-full bg-line"></div>
-        <div className="text-whiteHeading mt-10 flex flex-col xsm:mt-1 xsm:gap-5">
-          <span className="text-xl leading-[37px] tracking-wide xsm:text-base xsm:leading-[34px]">
+        <div className="readex mt-14 flex flex-col text-whiteHeading xsm:mt-1 xsm:gap-5">
+          {/* // TODO: add className here of font readex  */}
+          <span className="text-xl font-light leading-[31px] text-[#A4A4A4] xsm:text-base xsm:leading-[34px]">
             He is Allah, the Creator, the Originator, The Fashioner, to Him
             belong the most beautiful names .....
           </span>

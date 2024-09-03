@@ -1,13 +1,7 @@
-import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { poppins } from "./_components/ui/fonts";
 import Navbar from "./_components/ui/Navbar";
 import "./global.css";
-
-const inter = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
 
 export const metadata = {
   title: "99 Names of Allah",
@@ -29,7 +23,7 @@ export default function RootLayout({
           content="sgu7AYl82pjqRA5kxBQyfIoGY_M7uPpMetTozLiySP4"
         />
       </head>
-      <body className={inter.className}>
+      <body className={poppins.className}>
         <Navbar />
         {children}
       </body>

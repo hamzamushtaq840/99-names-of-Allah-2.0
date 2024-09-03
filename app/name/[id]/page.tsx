@@ -1,15 +1,11 @@
-import ArabicName from "@/app/_components/single-name/ArabicName";
-import NameAudio from "@/app/_components/single-name/NameAudio";
 import EnglishName from "@/app/_components/single-name/EnglishName";
-import HadithMention from "@/app/_components/single-name/HadithMention";
 import Heading from "@/app/_components/single-name/Heading";
 import Intro from "@/app/_components/single-name/Intro";
-import QuranMention from "@/app/_components/single-name/QuranMention";
+import NextButton from "@/app/_components/single-name/NextButton";
+import PreviousButton from "@/app/_components/single-name/PreviousButton";
 import { fetchName } from "@/app/lib/data";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import PreviousButton from "@/app/_components/single-name/PreviousButton";
-import NextButton from "@/app/_components/single-name/NextButton";
 
 export async function generateMetadata({
   params,
@@ -34,7 +30,7 @@ export default async function Page({ params }: { params: { id: string } }) {
   }
 
   return (
-    <main className="flex min-h-[100vh] flex-col items-center">
+    <main className="mt-8 flex flex-col items-center">
       <div className="flex items-center gap-10">
         <PreviousButton prevName={name?.prevName!} />
         <Heading name={name} />

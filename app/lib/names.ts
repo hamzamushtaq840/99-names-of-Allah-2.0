@@ -172,6 +172,27 @@ const singleNamesData = [
       "Al Malik Meaning: The King and Owner of Dominion (99 Names of Allah)",
     metaDescription: "",
   },
+  {
+    arabic: {
+      name: "ٱلْقُدُّوسُ",
+      meaning: "",
+    },
+    english: {
+      name: "AL-QUDDUS",
+      meaning: "The Absolutely Purest",
+    },
+    intro: `
+    <p>
+    Allah calls Himself Al-Quddus. Quddus is derived from the root (ق-د-س) qaf-dal-sin, which points to three main meanings. The first main meaning is to be pure and clean. The second is to be far removed from impurity or imperfection, and the third main meaning is to be sacred or blessed. Allah is free from any impurity or imperfection. 
+    </p>
+    </br>
+    <p>
+    Allah is the One who is set apart, distinctly different and separate from all worldly imperfections, sins and faults, the one with no fault, the one who created perfection, the one who has created pureness. Allah is free from any defects in the past and in the present, and when we say He is As Salaam, His attribute of Perfection is eternal; meaning He is forever Perfect. Quddoos refers to past and present and Salaam refers to future
+    </p>
+    `,
+    metaTitle: "Al Quddus Meaning: The Absolutely Purest (99 Names of Allah)",
+    metaDescription: "",
+  },
 ];
 
 export { names, singleNamesData };

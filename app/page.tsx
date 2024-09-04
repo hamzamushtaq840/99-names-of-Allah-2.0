@@ -11,7 +11,7 @@ export default function Home() {
       <Unnamed />
       <Hadith />
       <Names />
-      {/* <Accordion /> */}
+      <Accordion />
     </main>
   );
 }

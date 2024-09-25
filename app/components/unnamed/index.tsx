@@ -19,6 +19,7 @@ const Unnamed = () => {
           understanding. */}
 
 
+
           There is no specific order to the names of Allah. We cannot
           definitively state which name is first and which is last. The
           sequencing we see often is just given by people, most likely in order

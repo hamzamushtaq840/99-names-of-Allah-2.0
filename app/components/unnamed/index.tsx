@@ -9,7 +9,7 @@ const Unnamed = () => {
           Intro to The 99 Names of <span className="text-[#FB5322]">Allah</span>{" "}
           {/* <span className={`${gulzar.className} mt-[-100px]`}>ﷻ</span> */}
         </h1>
-        <span className="readex w-[95%] text-xl font-light leading-[31px] text-[#a4a4a4] xsm:w-full xsm:text-lg">
+        <span className="readex w-[95%] text-xl font-light leading-[35px] text-[#a4a4a4] xsm:w-full xsm:text-lg">
           {/* The 99 names of Allah (known as Asma ul Husna) serve as a mosaic of
           His infinite attributes, each one reflecting a unique quality of the
           Creator that resonates with the human experience. These names are not

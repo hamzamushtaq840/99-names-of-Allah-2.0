@@ -17,7 +17,7 @@ export default function Hero() {
             He is Allah, the Creator, the Originator, The Fashioner, to Him
             belong the most beautiful names .....
           </span>
-          <span className="ml-auto rounded-md bg-[#cccccc3a] px-2 py-1 text-sm text-[#ffffffae]">
+          <span className="ml-auto mt-2 rounded-md bg-[#cccccc3a] px-2 py-1 text-sm text-[#ffffffae]">
             Surah Al-Hashr 59:24
           </span>
         </div>

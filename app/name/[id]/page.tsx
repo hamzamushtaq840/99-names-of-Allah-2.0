@@ -1,8 +1,8 @@
-import EnglishName from "@/app/_components/single-name/EnglishName";
-import Heading from "@/app/_components/single-name/Heading";
-import Intro from "@/app/_components/single-name/Intro";
-import NextButton from "@/app/_components/single-name/NextButton";
-import PreviousButton from "@/app/_components/single-name/PreviousButton";
+import EnglishName from "@/app/components/single-name/EnglishName";
+import Heading from "@/app/components/single-name/Heading";
+import Intro from "@/app/components/single-name/Intro";
+import NextButton from "@/app/components/single-name/NextButton";
+import PreviousButton from "@/app/components/single-name/PreviousButton";
 import { fetchName } from "@/app/lib/data";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";

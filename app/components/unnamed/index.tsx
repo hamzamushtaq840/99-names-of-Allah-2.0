@@ -21,7 +21,7 @@ const Unnamed = () => {
           definitively state which name is first and which is last. The
           sequencing we see often is just given by people, most likely in order
           of rhyme so that it is easier to pronounce them in continuity.
-          Besides, Quran doesn't contain only 99 names/ attributes, but there
+          Besides, Quran doesn&apos;t contain only 99 names/ attributes, but there
           are more. Since they are in phrases, like two attributes together, so
           the scholars did not count them in the list. The list of 99 names is
           made because of a hadith which mentions of 99 names which is mentioned

@@ -17,6 +17,7 @@ const Unnamed = () => {
           and His relationship with creation. In the Quran, Allah introduces
           Himself through these names, laying a foundation for love and
           understanding. */}
+
           There is no specific order to the names of Allah. We cannot
           definitively state which name is first and which is last. The
           sequencing we see often is just given by people, most likely in order

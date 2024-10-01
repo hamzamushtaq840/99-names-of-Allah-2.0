@@ -1,14 +1,14 @@
-import Hadith from "@/app/components/hadith";
-import Hero from "@/app/components/hero";
-import Names from "@/app/components/names";
-import Accordion from "./components/accordion";
-import Unnamed from "./components/unnamed";
+import Hero from "@/components/home/hero";
+import Intro from "../components/home/intro";
+import Hadith from "@/components/home/hadith";
+import Names from "@/components/home/names";
+import Accordion from "../components/home/accordion";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Unnamed />
+      <Intro />
       <Hadith />
       <Names />
       <Accordion />

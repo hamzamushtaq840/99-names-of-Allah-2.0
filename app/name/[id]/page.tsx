@@ -1,9 +1,7 @@
-import EnglishName from "@/app/components/single-name/EnglishName";
-import Heading from "@/app/components/single-name/Heading";
-import Intro from "@/app/components/single-name/Intro";
-import NextButton from "@/app/components/single-name/NextButton";
-import PreviousButton from "@/app/components/single-name/PreviousButton";
-import { fetchName } from "@/app/lib/data";
+import Content from "@/components/single-name/content";
+import EnglishName from "@/components/single-name/EnglishName";
+import Heading from "@/components/single-name/heading";
+import { fetchName } from "@/lib/data";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 
@@ -31,16 +29,9 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <main className="mt-8 flex flex-col items-center">
-      <div className="flex items-center gap-10">
-        <PreviousButton prevName={name?.prevName!} />
-        <Heading name={name} />
-        {/* <ArabicName name={name?.arabic?.name} /> */}
-        {/* <NameAudio name={name?.english?.name} /> */}
-        <NextButton nextName={name?.nextName!} />
-      </div>
-
+      <Heading name={name} />
       <EnglishName name={name?.english?.name} />
-      <Intro intro={name?.intro} />
+      <Content content={name?.intro} />
 
       {/* <p className="rubik mt-8 text-[26px] font-[600] text-white">Mentions</p>
       <section className="xsm:flex-col mt-6 flex w-full justify-center gap-12 px-[55px]">

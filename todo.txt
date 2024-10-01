@@ -11,3 +11,8 @@
 
 #single-name
 1. Add hover effect in 
+
+ % npm run cz                                                             
+npm run release
+git tag
+git push --follow-tags 

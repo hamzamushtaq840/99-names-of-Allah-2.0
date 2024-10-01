@@ -1,6 +1,6 @@
 import { Analytics } from "@vercel/analytics/react";
-import { poppins } from "./components/ui/fonts";
-import Navbar from "./components/ui/Navbar";
+import { poppins } from "../components/ui/fonts";
+import Navbar from "../components/ui/Navbar";
 import "./global.css";
 
 export const metadata = {

@@ -2,6 +2,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { poppins } from "../components/ui/fonts";
 import Navbar from "../components/ui/Navbar";
 import "./global.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "99 Names of Allah",
@@ -26,6 +27,8 @@ export default function RootLayout({
       <body className={poppins.className}>
         <Navbar />
         {children}
+        <SpeedInsights />
+        <Analytics />
       </body>
       <Analytics />
     </html>

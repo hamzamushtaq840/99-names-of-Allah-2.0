@@ -1,5 +1,4 @@
 import Content from "@/components/single-name/content";
-import EnglishName from "@/components/single-name/EnglishName";
 import Heading from "@/components/single-name/heading";
 import { fetchName } from "@/lib/data";
 import { Metadata } from "next";
@@ -30,7 +29,6 @@ export default async function Page({ params }: { params: { id: string } }) {
   return (
     <main className="mt-8 flex flex-col items-center">
       <Heading name={name} />
-      <EnglishName name={name?.english?.name} />
       <Content content={name?.intro} />
 
       {/* <p className="rubik mt-8 text-[26px] font-[600] text-white">Mentions</p>

@@ -1,11 +1,18 @@
 "use client";
+// Core
 import Image from "next/image";
 import Link from "next/link";
+
+// Libraries
+import clsx from "clsx";
+
+// Icons
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdMenu } from "react-icons/io";
+
+// Fonts
 import { readex } from "../fonts";
 import { useState } from "react";
-import clsx from "clsx";
 
 const Navbar = () => {
   const [isMobileActive, setIsMobileActive] = useState(false);

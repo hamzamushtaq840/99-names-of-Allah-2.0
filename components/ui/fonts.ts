@@ -12,4 +12,5 @@ export const workSans = Work_Sans({
 export const readex = Readex_Pro({
   subsets: ["latin"],
 });
+
 export const gulzar = Gulzar({ weight: ["400"], subsets: ["arabic"] });

@@ -1,8 +1,15 @@
+// Core
 import { Analytics } from "@vercel/analytics/react";
-import { poppins } from "../components/ui/fonts";
-import Navbar from "../components/ui/Navbar";
-import "./global.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+
+// Fonts
+import { poppins } from "../components/ui/fonts";
+
+// Custom Components
+import Navbar from "@/components/ui/navbar";
+
+// Style
+import "./global.css";
 
 export const metadata = {
   title: "99 Names of Allah",
@@ -24,13 +31,13 @@ export default function RootLayout({
           content="sgu7AYl82pjqRA5kxBQyfIoGY_M7uPpMetTozLiySP4"
         />
       </head>
+
       <body className={poppins.className}>
         <Navbar />
         {children}
         <SpeedInsights />
         <Analytics />
       </body>
-      <Analytics />
     </html>
   );
 }

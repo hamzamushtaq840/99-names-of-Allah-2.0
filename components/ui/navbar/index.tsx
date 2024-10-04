@@ -13,6 +13,9 @@ import { IoMdMenu } from "react-icons/io";
 // Fonts
 import { readex } from "../fonts";
 import { useState } from "react";
+import LocomotiveScroll from "../locomotive";
+
+// Custom Components
 
 const Navbar = () => {
   const [isMobileActive, setIsMobileActive] = useState(false);
@@ -24,9 +27,7 @@ const Navbar = () => {
       {/* left-side  */}
       <span className="flex gap-2">
         <Image src={"./logo.svg"} alt="logo" width={20} height={30} priority />
-        <span className="text-lg font-semibold tracking-wider">
-          NAMESOFALLAH
-        </span>
+        <p className="text-lg font-semibold tracking-wider">NAMESOFALLAH</p>
       </span>
 
       {/* right-side  */}
@@ -66,6 +67,9 @@ const Navbar = () => {
       >
         <IoMdMenu className="block text-2xl sm:hidden" />
       </button>
+
+      {/* For smooth scroll across all pages */}
+      <LocomotiveScroll />
     </nav>
   );
 };

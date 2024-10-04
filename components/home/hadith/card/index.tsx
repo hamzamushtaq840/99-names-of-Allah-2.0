@@ -1,10 +1,19 @@
-const HadithCard = ({ hadith }: { hadith: any }) => {
+// Custom Components
+import Heading4 from "@/components/ui/headings/heading4";
+
+// Interfaces and Types
+import { IHadiths } from "@/lib/interfaces/hadiths.interface";
+
+// Font
+import { readex } from "@/components/ui/fonts";
+
+const HadithCard = ({ hadith }: { hadith: IHadiths }) => {
   return (
-    <div className="flex min-h-[225px] justify-between px-24 xsm:min-h-[270px] xsm:flex-col xsm:justify-start xsm:gap-3 xsm:px-10">
-      <p className="readex w-[33%] text-4xl font-semibold text-white xsm:w-full xsm:text-2xl">
-        {hadith.reference}
-      </p>
-      <p className="readex w-[66%] text-2xl leading-relaxed text-[#a4a4a4] xsm:w-full xsm:text-xl">
+    <div className="flex min-h-[225px] flex-col justify-start gap-3 sm:min-h-[270px] sm:flex-row sm:justify-between sm:gap-0">
+      <Heading4 content={hadith.reference} />
+      <p
+        className={`${readex.className} w-full text-base font-light leading-[30px] text-grey sm:w-[66%] sm:text-2xl sm:leading-[35px]`}
+      >
         {hadith.content}
       </p>
     </div>

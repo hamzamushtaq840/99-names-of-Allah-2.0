@@ -13,7 +13,7 @@ const NextButton = ({ nextName }: { nextName: string }) => {
       title={nextName}
       replace
       className={clsx("text-4xl", {
-        "cursor-pointer text-[#FDC237]/75 hover:text-[#FDC237]/90": nextName,
+        "cursor-pointer text-[#FDC237]/75 hover:text-[#FDC237]": nextName,
         "text-grey": !nextName,
       })}
     >

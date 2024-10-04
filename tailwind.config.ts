@@ -15,10 +15,12 @@ const config: Config = {
       },
       colors: {
         grey: "#A4A4A4",
-        whiteHeading: "#EDEEEE",
+        subWhite: "#EDEEEE",
         whiteSub: "#c5ccd3",
         orange: "#FF5B22",
         line: "#a1a1a1",
+        ayahBg: "#cccccc3a",
+        ayahText: "#ffffffae",
       },
     },
   },

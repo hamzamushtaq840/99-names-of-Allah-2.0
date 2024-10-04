@@ -7,10 +7,13 @@ import Card from "./card";
 
 const Names = () => {
   return (
-    <section id="names" className="mt-24 text-black">
+    <section
+      id="names"
+      className="mx-8 mt-8 flex flex-col gap-7 px-2 sm:mx-20 sm:mt-16 sm:gap-20"
+    >
       <Heading2 content="Names" />
 
-      <div className="mx-24 mt-20 grid grid-cols-3 gap-x-10 gap-y-10 xsm:mx-10 xsm:mt-10 xsm:grid-cols-1">
+      <div className="grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-3">
         {NAMES.map((name: any, index: number) => {
           return <Card key={index} name={name} index={index} />;
         })}

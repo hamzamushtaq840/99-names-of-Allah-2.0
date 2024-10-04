@@ -17,7 +17,7 @@ const HadithSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 700,
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -31,7 +31,7 @@ const HadithSlider = () => {
   };
 
   return (
-    <div className="mt-40 px-2 xsm:mt-16">
+    <div>
       <Slider {...settings}>
         {hadiths.map((hadith, index) => {
           return <HadithCard key={index} hadith={hadith} />;

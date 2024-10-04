@@ -1,12 +1,17 @@
-import React from "react";
+// Font
+import { readex } from "../fonts";
 
-const Heading2 = ({ content, id }: { content: string; id?: string }) => {
+// Interface and Types
+import { IHeading2ComponentProps } from "@/lib/interfaces/heading2.interface";
+
+const Heading2 = ({ content, id }: IHeading2ComponentProps) => {
   return (
-    <div id={id} className="readex about-text abc ml-24 mt-7 xsm:ml-10">
-      <h2 className="text-outline text-8xl hover:cursor-pointer xsm:text-6xl">
-        {content}
-      </h2>
-    </div>
+    <h2
+      id={id}
+      className={`${readex.className} heading-2 ml-[-10px] text-6xl hover:cursor-pointer sm:text-8xl`}
+    >
+      {content}
+    </h2>
   );
 };
 

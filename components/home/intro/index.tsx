@@ -1,23 +1,17 @@
 // Core
 import Image from "next/image";
 
+// Custom Components
+import Heading3 from "@/components/ui/headings/heading3";
+
 const Intro = () => {
   return (
-    <section className="mx-24 mb-20 mt-20 flex items-center justify-between xsm:mx-10 xsm:mb-12 xsm:flex-col-reverse xsm:gap-10">
+    <section className="mx-8 mb-12 mt-20 flex flex-col-reverse items-center justify-between gap-10 sm:mx-20 sm:mb-20 sm:flex-row sm:gap-0">
       {/* left side */}
-      <div className="flex flex-col gap-6 pr-20 xsm:pr-0">
-        <h2 className="readex mt-0 text-6xl font-semibold leading-[120%] text-white xsm:text-3xl">
-          Intro to The 99 Names of <span className="text-[#FB5322]">Allah</span>{" "}
-        </h2>
+      <div className="flex flex-col gap-4 pr-0 sm:gap-6 sm:pr-20">
+        <Heading3 />
 
-        <p className="readex w-[95%] text-xl font-light leading-[35px] text-[#a4a4a4] xsm:w-full xsm:text-lg">
-          {/* The 99 names of Allah (known as Asma ul Husna) serve as a mosaic of
-          His infinite attributes, each one reflecting a unique quality of the
-          Creator that resonates with the human experience. These names are not
-          just titles; they are descriptors of Allah&apos;s actions in the world
-          and His relationship with creation. In the Quran, Allah introduces
-          Himself through these names, laying a foundation for love and
-          understanding. */}
+        <p className="w-full text-base font-light leading-[30px] text-grey sm:w-[95%] sm:text-xl sm:leading-[35px]">
           There is no specific order to the names of Allah. We cannot
           definitively state which name is first and which is last. The
           sequencing we see often is just given by people, most likely in order
@@ -31,7 +25,8 @@ const Intro = () => {
       </div>
 
       {/* right side */}
-      <div className="relative h-[649px] min-w-[449px] overflow-hidden rounded-xl xsm:h-[500px] xsm:min-w-full xsm:p-10">
+      {/* // TODO: add sizes in image */}
+      <div className="relative h-[500px] min-w-full overflow-hidden rounded-xl p-10 sm:h-[649px] sm:min-w-[449px] sm:p-0">
         <Image src={"/unnamed.jpg"} loading="eager" alt="My Image" fill />
       </div>
     </section>

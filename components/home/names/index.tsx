@@ -13,7 +13,7 @@ const Names = () => {
     >
       <Heading2 content="Names" />
 
-      <div className="grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-3">
+      <div className="mx-[-4px] grid grid-cols-1 gap-x-0 gap-y-10 sm:grid-cols-3 sm:gap-x-4 sm:px-0 lg:gap-x-8">
         {NAMES.map((name: any, index: number) => {
           return <Card key={index} name={name} index={index} />;
         })}

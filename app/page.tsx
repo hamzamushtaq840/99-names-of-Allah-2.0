@@ -1,3 +1,4 @@
+// Custom Components
 import Hero from "@/components/home/hero";
 import Intro from "../components/home/intro";
 import Hadith from "@/components/home/hadith";
@@ -11,7 +12,7 @@ export default function Home() {
       <Intro />
       <Hadith />
       <Names />
-      {/* <Accordion /> */}
+      <Accordion />
     </main>
   );
 }

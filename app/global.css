@@ -1,9 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,25 +13,26 @@ html {
   scroll-behavior: initial;
 }
 
-.readex {
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings: "HEXP" 0;
-  font-family: "Readex Pro", sans-serif;
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.lime {
-  font-family: "Limelight", cursive;
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
 }
 
-.rakkas {
-  font-family: "Rakkas", cursive;
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(86, 58, 50, 0.432);
+  border-radius: 10px;
 }
 
-.montserrat {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 /* HEADINGs  */
@@ -77,41 +72,9 @@ html {
   overflow-x: hidden;
 }
 
-.no-transition {
-  transition: none !important;
-}
-
-.quranAyah {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  box-shadow:
-    rgba(0, 0, 0, 0.19) 0px 10px 20px,
-    rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
+/* TODO: Should this be removed now */
 .quranAyah2 {
   box-shadow:
     rgba(0, 0, 0, 0.19) 0px 10px 20px,
     rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: black;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgba(86, 58, 50, 0.432);
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }

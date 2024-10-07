@@ -6,7 +6,7 @@ import Heading3 from "@/components/ui/headings/heading3";
 
 const Intro = () => {
   return (
-    <section className="mx-8 mb-12 mt-20 flex flex-col-reverse items-center justify-between gap-10 sm:mx-20 sm:mb-20 sm:flex-row sm:gap-0">
+    <section className="mx-8 mb-12 mt-16 flex flex-col-reverse items-center justify-between gap-10 sm:mx-20 sm:mb-20 sm:flex-row sm:gap-0">
       {/* left side */}
       <div className="flex flex-col gap-4 pr-0 sm:gap-6 sm:pr-20">
         <Heading3 />

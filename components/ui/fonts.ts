@@ -1,4 +1,11 @@
-import { Gulzar, Poppins, Readex_Pro, Work_Sans } from "next/font/google";
+import {
+  Rakkas,
+  Gulzar,
+  Poppins,
+  Readex_Pro,
+  Work_Sans,
+  Limelight,
+} from "next/font/google";
 
 export const poppins = Poppins({
   subsets: ["latin"],
@@ -13,4 +20,17 @@ export const readex = Readex_Pro({
   subsets: ["latin"],
 });
 
-export const gulzar = Gulzar({ weight: ["400"], subsets: ["arabic"] });
+export const rakkas = Rakkas({
+  subsets: ["arabic"],
+  weight: ["400"],
+});
+
+export const lime = Limelight({
+  weight: ["400"],
+  subsets: ["latin"],
+});
+
+export const gulzar = Gulzar({
+  weight: ["400"],
+  subsets: ["arabic"],
+});

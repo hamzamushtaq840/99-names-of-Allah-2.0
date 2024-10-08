@@ -26,7 +26,14 @@ const Intro = () => {
       {/* right side */}
       {/* // TODO: add sizes in image */}
       <div className="relative h-[500px] min-w-full overflow-hidden rounded-xl p-10 sm:h-[649px] sm:min-w-[449px] sm:p-0">
-        <Image src={"/unnamed.jpg"} loading="eager" alt="My Image" fill />
+        <Image
+          src={"/unnamed.jpg"}
+          loading="eager"
+          alt="My Image"
+          width={675}
+          height={1200}
+          className="absolute bottom-0 left-0 right-0 top-0"
+        />
       </div>
     </section>
   );

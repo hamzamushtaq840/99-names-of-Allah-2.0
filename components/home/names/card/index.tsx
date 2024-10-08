@@ -15,7 +15,7 @@ const Card = ({ name, index }: { name: any; index: number }) => {
         quality={100}
         alt="name"
         fill
-        className="transform transition-transform duration-500 group-hover:scale-105"
+        className="transition-all duration-500 group-hover:scale-105"
         style={{
           objectFit: "cover",
           filter: `brightness(${name.imageBrightness})`,

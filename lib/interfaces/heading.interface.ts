@@ -3,6 +3,6 @@ export interface IHeading2ComponentProps {
   id?: string;
 }
 
-export interface IHeading4ComponentProps {
+export interface IHeading3ComponentProps {
   content: string;
 }

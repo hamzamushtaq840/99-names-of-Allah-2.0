@@ -1,12 +1,15 @@
-// Font
+// Interfaces and Types
+import { IHeading3ComponentProps } from "@/lib/interfaces/heading.interface";
+
+// Fonts
 import { readex } from "../fonts";
 
-const Heading3 = () => {
+const Heading3 = ({ content }: IHeading3ComponentProps) => {
   return (
     <h3
-      className={`${readex.className} text-3xl font-semibold leading-[45px] text-white sm:text-6xl sm:leading-[75px]`}
+      className={`${readex.className} w-full text-2xl font-semibold text-white sm:w-[33%] sm:text-4xl sm:leading-[45px]`}
     >
-      Intro to The 99 Names of <span className="text-[#FB5322]">Allah</span>
+      {content}
     </h3>
   );
 };

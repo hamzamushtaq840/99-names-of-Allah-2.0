@@ -1,5 +1,8 @@
-import { workSans } from "@/components/ui/fonts";
+// Liraries
 import parse from "html-react-parser";
+
+// Fonts
+import { workSans } from "@/components/ui/fonts";
 
 const Content = ({ content }: { content: any }) => {
   return (

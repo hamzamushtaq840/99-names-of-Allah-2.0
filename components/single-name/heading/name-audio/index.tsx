@@ -29,7 +29,6 @@ const NameAudio = ({ name }: { name: string }) => {
     audio.addEventListener("ended", audioEndedHandler);
 
     return () => {
-      console.log("component is unmounted");
       audio.removeEventListener("ended", audioEndedHandler);
 
       if (audioRef.current) {
@@ -43,7 +42,7 @@ const NameAudio = ({ name }: { name: string }) => {
     setIsPlaying(true);
   };
   return (
-    <button onClick={playAudio}>
+    <button name="forward" onClick={playAudio}>
       {isPlaying ? (
         <FaPause className="cursor-not-allowed text-3xl text-orange" />
       ) : (

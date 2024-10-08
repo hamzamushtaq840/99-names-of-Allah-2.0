@@ -53,7 +53,7 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li className="flex h-[40px] items-center gap-2 rounded-lg bg-[#d8642a] px-2 text-white">
+        <li className="flex h-10 items-center gap-2 rounded-lg bg-[#853D00] px-2 text-white">
           <span>Donate</span>
           <FaExternalLinkAlt className="h-4 w-4" />
         </li>
@@ -61,6 +61,8 @@ const Navbar = () => {
 
       {/* right-side  */}
       <button
+        name="submenu"
+        aria-label="Toggle menu"
         onClick={() => {
           setIsMobileActive(!isMobileActive);
         }}

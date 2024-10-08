@@ -35,15 +35,13 @@ html {
   background: #555;
 }
 
-/* HEADINGs  */
+/* HEADINGS  */
 .heading-1 {
-  max-width: -webkit-max-content;
-  max-width: max-content;
   font-size: min(11.4vw, 9.2em);
   font-weight: 600;
   line-height: 115%;
 }
-.heading-2 {
+.heading-2-title {
   color: rgba(255, 255, 255, 0);
   letter-spacing: 4px;
   -webkit-text-stroke-width: 1px;
@@ -66,10 +64,6 @@ html {
 }
 .slick-dots .slick-active div {
   fill: #fb5322;
-}
-
-.hadees-container {
-  overflow-x: hidden;
 }
 
 /* TODO: Should this be removed now */

@@ -1,9 +1,16 @@
+// Core
 import Link from "next/link";
-import React from "react";
+
+// Icon
 import { IoIosArrowForward } from "react-icons/io";
+
+// Library
 import clsx from "clsx";
 
-const NextButton = ({ nextName }: { nextName: string }) => {
+// Interface
+import { INameNextComponentProp } from "@/lib/interfaces";
+
+const NextButton = ({ nextName }: INameNextComponentProp) => {
   return (
     <Link
       href={`/name/${nextName}`}
@@ -16,6 +23,7 @@ const NextButton = ({ nextName }: { nextName: string }) => {
         "cursor-pointer text-[#FDC237]/75 hover:text-[#FDC237]": nextName,
         "text-grey": !nextName,
       })}
+      aria-label="forward"
     >
       <IoIosArrowForward />
     </Link>

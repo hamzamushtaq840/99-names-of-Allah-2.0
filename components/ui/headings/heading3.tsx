@@ -1,5 +1,5 @@
-// Interfaces and Types
-import { IHeading3ComponentProps } from "@/lib/interfaces/heading.interface";
+// Interface
+import { IHeading3ComponentProps } from "@/lib/interfaces";
 
 // Fonts
 import { readex } from "../fonts";

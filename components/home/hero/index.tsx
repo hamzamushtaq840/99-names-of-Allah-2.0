@@ -1,7 +1,7 @@
 // Core
 import Image from "next/image";
 
-// Custom Components
+// UI Components
 import Heading1 from "@/components/ui/headings/heading1";
 
 export default function Hero() {
@@ -17,7 +17,7 @@ export default function Hero() {
             He is Allah, the Creator, the Originator, The Fashioner, to Him
             belong the most beautiful names .....
           </p>
-          <p className="bg-ayahBg text-ayahText ml-auto mt-2 rounded-md px-2 py-1 text-sm sm:mt-10">
+          <p className="ml-auto mt-2 rounded-md bg-ayahBg px-2 py-1 text-sm text-ayahText sm:mt-10">
             Surah Al-Hashr 59:24
           </p>
         </div>

@@ -2,15 +2,17 @@
 // Core
 import { useState } from "react";
 
-// Constants
+// Constant
 import { ACCORDIANS } from "@/lib/constants";
 
-// Libraries
+// Library
 import parse from "html-react-parser";
 
 const Accordion = () => {
+  // State
   const [activeIndex, setActiveIndex] = useState<Number | null>();
 
+  // Handler
   const toggleAccordion = (index: number) => {
     if (index === activeIndex) {
       return setActiveIndex(null);
@@ -30,7 +32,7 @@ const Accordion = () => {
         >
           <div
             className={`${
-              activeIndex === index ? "my-2 rounded-lg bg-[#853D00] px-4" : ""
+              activeIndex === index ? "my-2 rounded-lg bg-orangeSub px-4" : ""
             } space-y-4 py-2 transition-all duration-500 sm:py-4`}
           >
             <div className={`mb-2 flex w-full justify-between`}>

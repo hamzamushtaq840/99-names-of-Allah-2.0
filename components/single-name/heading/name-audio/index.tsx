@@ -1,12 +1,21 @@
 "use client";
+// Core
 import { useEffect, useRef, useState } from "react";
+
+// Icons
 import { FaPause } from "react-icons/fa6";
 import { HiSpeakerWave } from "react-icons/hi2";
 
-const NameAudio = ({ name }: { name: string }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef<HTMLAudioElement | null>(null); // Add a ref to keep track of the audio element
+// Interface
+import { INameAudioComponentProp } from "@/lib/interfaces";
 
+const NameAudio = ({ name }: INameAudioComponentProp) => {
+  // State
+  const [isPlaying, setIsPlaying] = useState(false);
+  // Ref
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  // Effects
   useEffect(() => {
     const audio = new Audio();
 
@@ -20,17 +29,15 @@ const NameAudio = ({ name }: { name: string }) => {
       audio.currentTime = 0;
     }
 
-    audioRef.current = audio; // Store the audio element in the ref
+    audioRef.current = audio;
 
     const audioEndedHandler = () => {
       setIsPlaying(false);
     };
-
     audio.addEventListener("ended", audioEndedHandler);
 
     return () => {
       audio.removeEventListener("ended", audioEndedHandler);
-
       if (audioRef.current) {
         audioRef.current.pause();
         audioRef.current.currentTime = 0;
@@ -38,11 +45,13 @@ const NameAudio = ({ name }: { name: string }) => {
     };
   }, [isPlaying, name]);
 
+  // Handlers
   const playAudio = () => {
     setIsPlaying(true);
   };
+
   return (
-    <button name="forward" onClick={playAudio}>
+    <button aria-label="play/pause" onClick={playAudio}>
       {isPlaying ? (
         <FaPause className="cursor-not-allowed text-3xl text-orange" />
       ) : (

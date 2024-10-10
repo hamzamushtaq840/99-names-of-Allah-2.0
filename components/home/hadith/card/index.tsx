@@ -1,8 +1,8 @@
-// Custom Components
+// UI Components
 import Heading3 from "@/components/ui/headings/heading3";
 
-// Interfaces and Types
-import { IHadiths } from "@/lib/interfaces/hadiths.interface";
+// Interface
+import { IHadiths } from "@/lib/interfaces";
 
 // Font
 import { readex } from "@/components/ui/fonts";

@@ -1,19 +1,22 @@
 "use client";
-// Libraries
+// Library
 import Slider from "react-slick";
 
-// Custom Components
-import CustomDot from "@/assets/CustomDot";
+// UI Components
 import HadithCard from "../card";
 
 // Utils and Constants
 import { hadiths } from "@/lib/constants";
+
+// Icons
+import { ICONS } from "@/assets/icons";
 
 // Styles
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 
 const HadithSlider = () => {
+  // Configuration
   const settings = {
     dots: true,
     infinite: true,
@@ -23,11 +26,7 @@ const HadithSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    customPaging: () => (
-      <div>
-        <CustomDot />
-      </div>
-    ),
+    customPaging: () => <div>{ICONS.customDot()}</div>,
   };
 
   return (

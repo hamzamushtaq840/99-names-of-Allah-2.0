@@ -1,23 +1,25 @@
 "use client";
 // Core
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-// Libraries
+// Library
 import clsx from "clsx";
 
 // Icons
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdMenu } from "react-icons/io";
+import { CiCoffeeCup } from "react-icons/ci";
 
 // Fonts
 import { readex } from "../fonts";
-import { useState } from "react";
+
+// UI Components
 import LocomotiveScroll from "../locomotive";
 
-// Custom Components
-
 const Navbar = () => {
+  //State
   const [isMobileActive, setIsMobileActive] = useState(false);
 
   return (
@@ -25,10 +27,12 @@ const Navbar = () => {
       className={`${readex.className} relative mx-5 mt-5 flex items-center justify-between rounded-full bg-[#242424] px-8 py-4 text-white sm:mx-20 2xl:mt-8 2xl:py-5`}
     >
       {/* left-side  */}
-      <span className="flex gap-2">
+      <Link href={"/"} className="flex gap-2">
         <Image src={"./logo.svg"} alt="logo" width={20} height={30} priority />
-        <p className="text-lg font-semibold tracking-wider">NAMESOFALLAH</p>
-      </span>
+        <span className="text-lg font-semibold tracking-wider">
+          NAMESOFALLAH
+        </span>
+      </Link>
 
       {/* right-side  */}
       <ul
@@ -39,23 +43,18 @@ const Navbar = () => {
         })}
       >
         <li>
+          <Link className="cursor-pointer hover:text-white/75" href="/#hadiths">
+            Hadiths
+          </Link>
+        </li>
+        <li>
           <Link className="cursor-pointer hover:text-white/75" href="/#names">
             Names
           </Link>
         </li>
-        <li>
-          <Link className="cursor-pointer hover:text-white/75" href="/#names">
-            Quiz
-          </Link>
-        </li>
-        <li>
-          <Link className="cursor-pointer hover:text-white/75" href="/#hadiths">
-            Contact
-          </Link>
-        </li>
-        <li className="flex h-10 items-center gap-2 rounded-lg bg-[#853D00] px-2 text-white">
-          <span>Donate</span>
-          <FaExternalLinkAlt className="h-4 w-4" />
+        <li className="flex h-10 items-center gap-1 rounded-full bg-orangeSub px-4 text-white">
+          <span>Buy me Coffee</span>
+          <CiCoffeeCup className="h-6 w-6" />
         </li>
       </ul>
 

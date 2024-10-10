@@ -1,6 +1,5 @@
 import {
   Rakkas,
-  Gulzar,
   Poppins,
   Readex_Pro,
   Work_Sans,
@@ -28,9 +27,4 @@ export const rakkas = Rakkas({
 export const lime = Limelight({
   weight: ["400"],
   subsets: ["latin"],
-});
-
-export const gulzar = Gulzar({
-  weight: ["400"],
-  subsets: ["arabic"],
 });

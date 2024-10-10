@@ -1,9 +1,16 @@
-import clsx from "clsx";
+// Core
 import Link from "next/link";
-import React from "react";
+
+// Icons
 import { IoIosArrowBack } from "react-icons/io";
 
-const PreviousButton = ({ prevName }: { prevName: string }) => {
+// Library
+import clsx from "clsx";
+
+// Interface
+import { INamePrevComponentProp } from "@/lib/interfaces";
+
+const PreviousButton = ({ prevName }: INamePrevComponentProp) => {
   return (
     <Link
       href={`/name/${prevName}`}
@@ -16,6 +23,7 @@ const PreviousButton = ({ prevName }: { prevName: string }) => {
         "text-grey": !prevName,
       })}
       replace
+      aria-label="back"
     >
       <IoIosArrowBack />
     </Link>

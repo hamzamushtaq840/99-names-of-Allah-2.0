@@ -1,17 +1,18 @@
-// Liraries
-import parse from "html-react-parser";
+// Interface
+import { IHadithContentProps } from "@/lib/interfaces";
 
-// Fonts
+// Font
 import { workSans } from "@/components/ui/fonts";
 
-const Content = ({ content }: { content: any }) => {
+// Library
+import parse from "html-react-parser";
+
+const Content = ({ content }: IHadithContentProps) => {
   return (
-    <div className="xsm:w-[85%] mb-10 w-[70%]">
-      <div
-        className={`${workSans.className} mt-4 break-words text-lg leading-8 text-[#98989A]`}
-      >
-        {parse(content)}
-      </div>
+    <div
+      className={`${workSans.className} mb-10 mt-4 w-full text-base leading-[30px] text-grey selection:bg-orangeSub selection:text-white sm:w-[97%] sm:text-xl sm:leading-[35px]`}
+    >
+      {parse(content ?? "")}
     </div>
   );
 };

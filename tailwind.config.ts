@@ -18,6 +18,7 @@ const config: Config = {
         subWhite: "#EDEEEE",
         whiteSub: "#c5ccd3",
         orange: "#FF5B22",
+        orangeSub: "#853D00",
         line: "#a1a1a1",
         ayahBg: "#cccccc3a",
         ayahText: "#ffffffae",

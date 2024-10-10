@@ -14,6 +14,7 @@ export interface HadithMentions {
 }
 
 export interface INameDetails {
+  id: number;
   arabic: {
     name: string;
     meaning: string;
@@ -29,4 +30,20 @@ export interface INameDetails {
   metaDescription: string;
   prevName?: string;
   nextName?: string;
+}
+
+export interface INameAudioComponentProp {
+  name: string;
+}
+
+export interface INamePrevComponentProp {
+  prevName: string;
+}
+
+export interface INameNextComponentProp {
+  nextName: string;
+}
+
+export interface INameHeadingComponentProp {
+  name: INameDetails;
 }

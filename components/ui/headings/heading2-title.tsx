@@ -1,8 +1,8 @@
 // Font
 import { readex } from "../fonts";
 
-// Interface and Types
-import { IHeading2ComponentProps } from "@/lib/interfaces/heading.interface";
+// Interface
+import { IHeading2ComponentProps } from "@/lib/interfaces";
 
 const Heading2Title = ({ content, id }: IHeading2ComponentProps) => {
   return (

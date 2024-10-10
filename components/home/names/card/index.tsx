@@ -1,8 +1,14 @@
+// Core
 import Link from "next/link";
 import Image from "next/image";
+
+// UI Components
 import CardDescription from "./card-description";
 
-const Card = ({ name, index }: { name: any; index: number }) => {
+// Interface
+import { INameCardComponentProps } from "@/lib/interfaces";
+
+const Card = ({ name, index }: INameCardComponentProps) => {
   return (
     <Link
       href={`/name/${name.english.name}`}

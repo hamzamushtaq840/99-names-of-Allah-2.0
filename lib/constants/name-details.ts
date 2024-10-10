@@ -1,5 +1,6 @@
 export const NAME_DETAILS = [
   {
+    id: 1,
     arabic: {
       name: "الرَّحْمَنُ",
       meaning: "",
@@ -23,6 +24,7 @@ export const NAME_DETAILS = [
     metaDescription: `Explore Ar Rahmaan (الرَّحْمَنُ)  one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.`,
   },
   {
+    id: 2,
     arabic: {
       name: "ٱلْرَّحِيْمُ",
       meaning: "",
@@ -45,6 +47,7 @@ export const NAME_DETAILS = [
     metaDescription: `Explore Ar Rahmaan (الرَّحْمَنُ)  one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.`,
   },
   {
+    id: 3,
     arabic: {
       name: "ٱلْمَلِكُ",
       meaning: "",
@@ -67,6 +70,7 @@ export const NAME_DETAILS = [
     metaDescription: "",
   },
   {
+    id: 4,
     arabic: {
       name: "ٱلْقُدُّوسُ",
       meaning: "",

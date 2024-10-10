@@ -1,4 +1,4 @@
-// Custom Components
+// UI Components
 import HadithSlider from "./slider";
 import Heading2Title from "@/components/ui/headings/heading2-title";
 

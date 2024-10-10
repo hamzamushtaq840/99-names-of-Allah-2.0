@@ -1,7 +1,7 @@
 // Core
 import Image from "next/image";
 
-// Custom Components
+// UI Components
 import Heading2Intro from "@/components/ui/headings/heading2-intro";
 
 const Intro = () => {

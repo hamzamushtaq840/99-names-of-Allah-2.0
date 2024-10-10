@@ -1,13 +1,16 @@
-// Custom Components
+// UI Components
 import { HiArrowLongRight } from "react-icons/hi2";
 
 // Fonts
 import { lime, rakkas, readex } from "@/components/ui/fonts";
 
-const CardDescription = ({ name, index }: { name: any; index: number }) => {
+// Interface
+import { INameCardComponentProps } from "@/lib/interfaces";
+
+const CardDescription = ({ name, index }: INameCardComponentProps) => {
   return (
     <>
-      <div className="absolute top-0 flex h-full w-full flex-col items-center justify-center text-white hover:bg-[#00000015]">
+      <div className="absolute top-0 flex h-full w-full flex-col items-center justify-center text-white">
         <p className="absolute bottom-10 left-4 text-7xl font-extrabold leading-[31px] opacity-[0.3]">
           {index + 1}
         </p>
@@ -22,7 +25,7 @@ const CardDescription = ({ name, index }: { name: any; index: number }) => {
           {name.english.name}
         </p>
         <p
-          className={`${lime.className} flex-1 px-[30px] pt-10 text-center text-[18px] sm:text-[24px]`}
+          className={`${lime.className} flex-1 px-[30px] pt-10 text-center text-[16px] leading-[30px] sm:text-[22px] sm:leading-[35px]`}
         >
           {name.english.meaning}
         </p>

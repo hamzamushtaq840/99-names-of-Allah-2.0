@@ -5,7 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 // Fonts
 import { poppins } from "../components/ui/fonts";
 
-// Custom Components
+// UI Components
 import Navbar from "@/components/ui/navbar";
 
 // Style

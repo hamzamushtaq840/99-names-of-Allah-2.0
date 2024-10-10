@@ -1,7 +1,7 @@
 // Constants and Utils
 import { NAMES } from "@/lib/constants";
 
-// Custom Components
+// UI Components
 import Card from "./card";
 import Heading2Title from "@/components/ui/headings/heading2-title";
 

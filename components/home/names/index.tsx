@@ -18,6 +18,8 @@ const Names = () => {
           return <Card key={index} name={name} index={index} />;
         })}
       </div>
+
+      <p className="flex justify-center text-white">WORK IN PROGRESS... 🚧</p>
     </section>
   );
 };

@@ -1,100 +1,38 @@
 const Loading = () => {
   return (
     <div className="flex min-h-[80vh] items-center justify-center text-white">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34+0 0">
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 50 50"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+      >
         <circle
-          fill="#FFFFFF"
-          stroke="#FFFFFF"
-          stroke-width="2"
-          r="15"
-          cx="30"
-          cy="100"
+          cx="25"
+          cy="25"
+          r="20"
+          stroke="white"
+          strokeWidth="4"
+          fill="none"
+          strokeLinecap="round"
+          strokeDasharray="31.4 31.4"
         >
-          <animate
-            attributeName="cx"
-            calcMode="spline"
-            dur="2"
-            values="30;120;120;30;30"
-            keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1"
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 25 25"
+            to="360 25 25"
+            dur="0.8s"
             repeatCount="indefinite"
-            begin="0"
-          ></animate>
-        </circle>
-        <circle
-          fill="#FFFFFF"
-          stroke="#FFFFFF"
-          stroke-width="2"
-          opacity=".8"
-          r="15"
-          cx="30"
-          cy="100"
-        >
+          />
           <animate
-            attributeName="cx"
-            calcMode="spline"
-            dur="2"
-            values="30;120;120;30;30"
-            keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1"
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="62.8"
+            dur="1s"
             repeatCount="indefinite"
-            begin="0.05"
-          ></animate>
-        </circle>
-        <circle
-          fill="#FFFFFF"
-          stroke="#FFFFFF"
-          stroke-width="2"
-          opacity=".6"
-          r="15"
-          cx="30"
-          cy="100"
-        >
-          <animate
-            attributeName="cx"
-            calcMode="spline"
-            dur="2"
-            values="30;120;120;30;30"
-            keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1"
-            repeatCount="indefinite"
-            begin=".1"
-          ></animate>
-        </circle>
-        <circle
-          fill="#FFFFFF"
-          stroke="#FFFFFF"
-          stroke-width="2"
-          opacity=".4"
-          r="15"
-          cx="30"
-          cy="100"
-        >
-          <animate
-            attributeName="cx"
-            calcMode="spline"
-            dur="2"
-            values="30;120;120;30;30"
-            keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1"
-            repeatCount="indefinite"
-            begin=".15"
-          ></animate>
-        </circle>
-        <circle
-          fill="#FFFFFF"
-          stroke="#FFFFFF"
-          stroke-width="2"
-          opacity=".2"
-          r="15"
-          cx="30"
-          cy="100"
-        >
-          <animate
-            attributeName="cx"
-            calcMode="spline"
-            dur="2"
-            values="30;120;120;30;30"
-            keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1"
-            repeatCount="indefinite"
-            begin=".2"
-          ></animate>
+          />
         </circle>
       </svg>
     </div>

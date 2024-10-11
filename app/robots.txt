@@ -1,3 +1,2 @@
 User-agent: *
-Crawl-delay: 20
 Sitemap: https://www.99namesofallah.faith/sitemap.xml

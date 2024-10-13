@@ -12,10 +12,8 @@ import Navbar from "@/components/ui/navbar";
 import "./global.css";
 
 export const metadata = {
-  title: "99 Names of Allah",
-  description: `The 99 Names of Allah (SWT) - Al-Asma-ul-Husna. 
-    As Muslims, we believe in Allah (SWT) in accordance with His
-    beautiful names & attributes.`,
+  title: "99 Names of Allah - Asma Ul Husna Explained with Meanings",
+  description: `99 Names of Allah (SWT) with English meanings, descriptions, along with the Arabic pronunciation for each name.`,
 };
 
 export default function RootLayout({
@@ -25,13 +23,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta
-          name="google-site-verification"
-          content="sgu7AYl82pjqRA5kxBQyfIoGY_M7uPpMetTozLiySP4"
-        />
-      </head>
-
       <body className={poppins.className}>
         <Navbar />
         {children}

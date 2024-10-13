@@ -21,7 +21,7 @@ export const NAME_DETAILS = [
     </br>
     `,
     metaTitle: "Ar Rahmaan Meaning: The Entirely Merciful (99 Names of Allah)",
-    metaDescription: `Explore Ar Rahmaan (الرَّحْمَنُ)  one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.`,
+    metaDescription: `Explore Ar Rahmaan (الرَّحْمَنُ) one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.`,
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ export const NAME_DETAILS = [
     </p>
     `,
     metaTitle: "Ar Raheem Meaning: The Bestower of Mercy (99 Names of Allah)",
-    metaDescription: `Explore Ar Rahmaan (الرَّحْمَنُ)  one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.`,
+    metaDescription: `Explore Ar Rahmeem (ٱلْرَّحِيْمُ) one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Raheem and the significance of the 99 names of Allah on our website.`,
   },
   {
     id: 3,
@@ -67,7 +67,8 @@ export const NAME_DETAILS = [
     `,
     metaTitle:
       "Al Malik Meaning: The King and Owner of Dominion (99 Names of Allah)",
-    metaDescription: "",
+    metaDescription:
+      "Explore Ar Malik (ٱلْمَلِكُ) one of the 99 names of Allah, representing him with the attribute The King and Owner of Dominion. Discover the divine attributes of Al Malik and the significance of the 99 names of Allah on our website.",
   },
   {
     id: 4,
@@ -89,6 +90,7 @@ export const NAME_DETAILS = [
     </p>
     `,
     metaTitle: "Al Quddus Meaning: The Absolutely Purest (99 Names of Allah)",
-    metaDescription: "",
+    metaDescription:
+      "Explore Al Quddus (ٱلْقُدُّوسُ) one of the 99 names of Allah, representing him with the attribute The Absolutely Purest. Discover the divine attributes of Al Quddus and the significance of the 99 names of Allah on our website.",
   },
 ];

@@ -8,11 +8,10 @@ import CardDescription from "./card-description";
 // Interface
 import { INameCardComponentProps } from "@/lib/interfaces";
 
-const Card = ({ name, index }: INameCardComponentProps) => {
+const Card = ({ name }: INameCardComponentProps) => {
   return (
     <Link
       href={`/name/${name.english.name}`}
-      key={index}
       className="group relative h-[350px] cursor-pointer overflow-hidden rounded-lg sm:h-[527px]"
       scroll={true}
     >
@@ -27,7 +26,7 @@ const Card = ({ name, index }: INameCardComponentProps) => {
           filter: `brightness(${name.imageBrightness})`,
         }}
       />
-      <CardDescription name={name} index={index} />
+      <CardDescription name={name} />
     </Link>
   );
 };

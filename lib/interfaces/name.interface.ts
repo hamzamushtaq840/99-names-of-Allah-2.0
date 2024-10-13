@@ -4,19 +4,18 @@ export interface IName {
   imageBrightness: string;
   arabic: {
     name: string;
-    meaning: string;
+    meaning?: string;
   };
   english: {
     name: string;
     meaning: string;
   };
   urdu: {
-    name: string;
+    name?: string;
     meaning: string;
   };
 }
 
 export interface INameCardComponentProps {
   name: IName;
-  index: number;
 }

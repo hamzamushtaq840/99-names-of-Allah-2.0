@@ -3,6 +3,7 @@ import Image from "next/image";
 
 // UI Components
 import Heading1 from "@/components/ui/headings/heading1";
+import { ICONS } from "@/assets/icons";
 
 export default function Hero() {
   return (
@@ -25,7 +26,7 @@ export default function Hero() {
 
       <div className="my-10 mt-16 flex justify-center sm:my-0 sm:mt-20">
         <Image
-          src="https://assets-global.website-files.com/65ec76596f839f619b8b82fe/660a48e25f4b7a8e5c1ed820_Scroll.webp"
+          src={ICONS.scroll}
           width={28}
           height={32}
           alt="scroll"

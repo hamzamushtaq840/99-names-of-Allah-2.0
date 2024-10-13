@@ -25,5 +25,3 @@ const QuranMention = ({ mentions }: { mentions: any }) => {
     </aside>
   );
 };
-
-export default QuranMention;

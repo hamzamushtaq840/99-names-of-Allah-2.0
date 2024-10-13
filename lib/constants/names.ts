@@ -86,8 +86,7 @@ export const NAMES = [
   },
   {
     id: 6,
-    image:
-      "https://i.pinimg.com/750x/91/b2/d5/91b2d572151f1d6e49720b9bad0940f9.jpg",
+    image: "/names-images/six.jpg",
     imageBrightness: "45%",
     arabic: {
       name: "ٱلْمُؤْمِنُ",
@@ -104,8 +103,7 @@ export const NAMES = [
   },
   {
     id: 7,
-    image:
-      "https://i.pinimg.com/564x/ef/c3/29/efc32913100d6d00a95b95b285c777b1.jpg",
+    image: "/names-images/seven.jpg",
     imageBrightness: "40%",
     arabic: {
       name: "ٱلْمُهَيْمِنُ",
@@ -120,8 +118,7 @@ export const NAMES = [
   },
   {
     id: 8,
-    image:
-      "https://i.pinimg.com/236x/ef/36/0a/ef360a9e971b2d965d72bb4a7556b48d.jpg",
+    image: "/names-images/eight.jpg",
     imageBrightness: "50%",
     arabic: {
       name: "ٱلْعَزِيزُ",
@@ -136,8 +133,7 @@ export const NAMES = [
   },
   {
     id: 9,
-    image:
-      "https://i.pinimg.com/564x/5e/64/23/5e6423c6be8e66b73d378c7eb9354688.jpg",
+    image: "/names-images/nine.jpg",
     imageBrightness: "40%",
     arabic: {
       name: "ٱلْجَبَّارُ",

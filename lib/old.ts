@@ -1,4 +1,4 @@
-export const names = [
+const names = [
   {
     image:
       "https://i.pinimg.com/originals/d1/65/97/d165973ecc3dd541529a2d2cdeaf2c11.jpg",

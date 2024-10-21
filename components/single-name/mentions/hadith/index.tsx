@@ -1,31 +1,32 @@
-const HadithMention = ({ mentions }: { mentions: any }) => {
+// UI Component
+import Reference from "./reference";
+
+// Interface
+import {
+  HadithMentions,
+  IHadithMentionsComponentProp,
+} from "@/lib/interfaces";
+
+// Font
+import { workSans } from "@/components/ui/fonts";
+
+export const HadithMention = ({ mentions }: IHadithMentionsComponentProp) => {
   return (
-    <aside className="flex max-w-[580px] flex-col">
-      <span className="rubik text-center text-xl font-[600] text-white">
+    <aside className="flex w-1/2 flex-col">
+      <span className="my-5 text-center text-[18px] font-semibold tracking-widest text-white sm:text-[24px]">
         HADITH
       </span>
       <div className="mt-4 flex flex-col gap-6">
-        {mentions?.map((val: any) => {
+        {mentions?.map((val: HadithMentions, index: number) => {
           return val.contentType === "text" ? (
-            <p className="outfit text-center text-[18px] leading-[28px] text-[#c5ccd3]">
+            <p
+              key={index}
+              className={`${workSans.className} text-pretty text-base leading-[30px] text-grey sm:text-xl sm:leading-[35px]`}
+            >
               {val.content}
             </p>
           ) : (
-            <p className="outfit flex flex-col rounded bg-[#252836ba] p-4 text-justify text-[16px] leading-[28px] text-[#c5ccd3] shadow-quranAyah">
-              <span className="mb-1 self-start text-[12px] font-[700] uppercase text-[#ccc]">
-                Narrated{" "}
-                <span className="italic text-white">{val.narrated}</span> :
-              </span>
-              {val.content}
-              <a
-                target="_blank"
-                href={val.link}
-                rel="noopener noreferrer"
-                className="cursor-pointer self-end text-[#2faee0]"
-              >
-                — ({val.hadeesNo})
-              </a>
-            </p>
+            <Reference key={index} hadith={val} />
           );
         })}
       </div>

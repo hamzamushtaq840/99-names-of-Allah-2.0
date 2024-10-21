@@ -47,3 +47,19 @@ export interface INameNextComponentProp {
 export interface INameHeadingComponentProp {
   name: INameDetails;
 }
+
+export interface IHadithMentionsComponentProp {
+  mentions: HadithMentions[];
+}
+
+export interface IQuranMentionsComponentProp {
+  mentions: HadithMentions[];
+}
+
+export interface IReferenceComponentProp {
+  hadith: HadithMentions;
+}
+
+export interface IAyahComponentProp {
+  ayah: QuranMentions;
+}

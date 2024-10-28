@@ -93,7 +93,7 @@ export const NAMES = [
       meaning: "",
     },
     english: {
-      name: "AL-MU’MIN",
+      name: "AL-MU'MIN",
       meaning: "The One Who gives Emaan and Security",
     },
     urdu: {
@@ -185,7 +185,7 @@ export const NAMES = [
       name: "ٱلْبَارِئُ",
     },
     english: {
-      name: "AL-BAARI’",
+      name: "AL-BAARI'",
       meaning: "The Originator",
     },
     urdu: {
@@ -350,7 +350,7 @@ export const NAMES = [
       name: "ٱلْرَّافِعُ",
     },
     english: {
-      name: "AR-RAAFI’",
+      name: "AR-RAAFI'",
       meaning: "The Exalter",
     },
     urdu: {
@@ -365,7 +365,7 @@ export const NAMES = [
       name: "ٱلْمُعِزُّ",
     },
     english: {
-      name: "AL-MU’IZZ",
+      name: "AL-MU'IZZ",
       meaning: "The Bestower of Honors",
     },
     urdu: {
@@ -395,7 +395,7 @@ export const NAMES = [
       name: "ٱلْسَّمِيعُ",
     },
     english: {
-      name: "AS-SAMEE’",
+      name: "AS-SAMEE'",
       meaning: "The All-Hearing",
     },
     urdu: {
@@ -680,7 +680,7 @@ export const NAMES = [
       name: "ٱلْوَاسِعُ",
     },
     english: {
-      name: "AL-WAASI’",
+      name: "AL-WAASI'",
       meaning: "The Vast, The All-Encompassing",
     },
     urdu: {
@@ -740,7 +740,7 @@ export const NAMES = [
       name: "ٱلْبَاعِثُ",
     },
     english: {
-      name: "AL-BA’ITH",
+      name: "AL-BA'ITH",
       meaning: "The Resurrector",
     },
     urdu: {
@@ -890,7 +890,7 @@ export const NAMES = [
       name: "ٱلْمُعِيدُ",
     },
     english: {
-      name: "AL-MU’ID",
+      name: "AL-MU'ID",
       meaning: "The Restorer, The Reinstater Who Brings Back All",
     },
     urdu: {
@@ -1087,7 +1087,7 @@ export const NAMES = [
       name: "ٱلْمُؤَخِّرُ",
     },
     english: {
-      name: "AL-MU’AKHKHIR",
+      name: "AL-MU'AKHKHIR",
       meaning: "The Delayer, He who puts far away",
     },
     urdu: {
@@ -1177,7 +1177,7 @@ export const NAMES = [
       name: "ٱلْمُتَعَالِي",
     },
     english: {
-      name: "AL-MUTA’ALI",
+      name: "AL-MUTA'ALI",
       meaning: "The Self Exalted",
     },
     urdu: {
@@ -1252,7 +1252,7 @@ export const NAMES = [
       name: "ٱلْرَّؤُفُ",
     },
     english: {
-      name: "AR-RA’OOF",
+      name: "AR-RA'OOF",
       meaning: "The Most Kind",
     },
     urdu: {
@@ -1312,7 +1312,7 @@ export const NAMES = [
       name: "ٱلْجَامِعُ",
     },
     english: {
-      name: "AL-JAAMI’",
+      name: "AL-JAAMI'",
       meaning: "The Gatherer, the Uniter",
     },
     urdu: {
@@ -1357,7 +1357,7 @@ export const NAMES = [
       name: "ٱلْمَانِعُ",
     },
     english: {
-      name: "AL-MANI’",
+      name: "AL-MANI'",
       meaning: "The Withholder",
     },
     urdu: {
@@ -1387,7 +1387,7 @@ export const NAMES = [
       name: "ٱلْنَّافِعُ",
     },
     english: {
-      name: "AN-NAFI’",
+      name: "AN-NAFI'",
       meaning: "The Creator of Good",
     },
     urdu: {
@@ -1432,7 +1432,7 @@ export const NAMES = [
       name: "ٱلْبَدِيعُ",
     },
     english: {
-      name: "AL-BADEE’",
+      name: "AL-BADEE'",
       meaning: "The Incomparable Originator",
     },
     urdu: {

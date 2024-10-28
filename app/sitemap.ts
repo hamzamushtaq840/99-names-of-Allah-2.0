@@ -38,5 +38,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: "https://www.99namesofallah.faith/name/AS-SALAM",
+      lastModified: "2024-10-11T05:00:27+00:00",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
   ];
 }

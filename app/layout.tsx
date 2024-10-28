@@ -5,9 +5,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 // Fonts
 import { poppins } from "../components/ui/fonts";
 
-// UI Components
-import Navbar from "@/components/ui/navbar";
-
 // Style
 import "./global.css";
 
@@ -24,7 +21,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <Navbar />
         {children}
         <SpeedInsights />
         <Analytics />

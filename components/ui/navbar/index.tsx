@@ -13,15 +13,18 @@ import { CiCoffeeCup } from "react-icons/ci";
 // Fonts
 import { readex } from "../fonts";
 
-// UI Components
-import LocomotiveScroll from "../locomotive";
+// Hooks
+import useLocomotiveScroll from "@/hooks/useLocomotiveScroll";
 
 // Icons
 import { ICONS } from "@/assets/icons";
 
 const Navbar = () => {
-  //State
+  // State
   const [isMobileActive, setIsMobileActive] = useState(false);
+
+  // Hook - For smooth scroll across all pages
+  useLocomotiveScroll();
 
   return (
     <nav
@@ -70,9 +73,6 @@ const Navbar = () => {
       >
         <IoMdMenu className="block text-2xl sm:hidden" />
       </button>
-
-      {/* For smooth scroll across all pages */}
-      <LocomotiveScroll />
     </nav>
   );
 };

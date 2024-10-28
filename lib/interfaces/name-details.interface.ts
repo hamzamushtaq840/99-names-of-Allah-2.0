@@ -17,7 +17,7 @@ export interface INameDetails {
   id: number;
   arabic: {
     name: string;
-    meaning: string;
+    meaning?: string;
   };
   english: {
     name: string;

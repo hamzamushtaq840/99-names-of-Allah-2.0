@@ -4,6 +4,8 @@ import { NAMES } from "@/lib/constants";
 // UI Components
 import Card from "./card";
 import Heading2Title from "@/components/ui/headings/heading2-title";
+
+// Interface
 import { IName } from "@/lib/interfaces";
 
 const Names = () => {

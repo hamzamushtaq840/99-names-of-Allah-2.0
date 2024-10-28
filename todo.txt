@@ -24,3 +24,58 @@ git push --follow-tags
 // 2xl	1536px	@media (min-width: 1536px) { ... }
 
 ipconfig getifaddr en0
+
+
+-------------------------------------- topics
+
+1. "Benefits of Learning the 99 Names of Allah"
+    Blog Topics:
+      "How Memorizing the 99 Names of Allah Can Strengthen Faith"
+      "Mental and Spiritual Benefits of Knowing Allah’s 99 Names"
+      "Stories of People Who Found Peace by Learning Allah’s Names"
+2. "99 Names of Allah in Daily Life"
+    Blog Topics:
+      "Ways to Remember the 99 Names of Allah Throughout the Day"
+      "Daily Affirmations Using Allah’s Beautiful Names"
+      "Incorporating the 99 Names of Allah in Family Life and Parenting"
+3. "Using Allah’s Names in Worship"
+    Blog Topics:
+      "The Role of Allah’s Names in Salah (Prayer) and Du’a (Supplication)"
+      "How Each Name of Allah Enhances Your Worship Experience"
+      "Making Du’a with Allah’s Names: A Guide to Specific Needs and Situations"
+4. "Understanding the 99 Names of Allah"
+    Blog Topics:
+      "The Deeper Meanings Behind the 99 Names of Allah"
+      "Exploring the Compassionate and Merciful Names of Allah"
+      "Understanding Allah’s Names Through the Quran and Hadith"
+5. "99 Names of Allah in the Quran"
+    Blog Topics:
+      "Where the 99 Names of Allah Appear in the Quran"
+      "Stories from the Quran Reflecting Allah’s Beautiful Names"
+      "Significance of Allah’s Names in Specific Quranic Verses"
+6. "Teaching the 99 Names of Allah to Children"
+    Blog Topics:
+      "Creative Ways to Teach Children Allah’s 99 Names"
+      "Activities and Games for Kids to Learn the Names of Allah"
+      "Instilling Faith Through Allah’s Names in Young Minds"
+7. "Spiritual Benefits of Allah’s 99 Names"
+    Blog Topics:
+      "How Allah’s Names Help Us Navigate Life’s Challenges"
+      "Finding Inner Peace by Meditating on the Names of Allah"
+      "How Reflecting on Allah’s Names Can Strengthen Your Soul"
+8. "99 Names of Allah and Self-Reflection"
+    Blog Topics:
+      "Using Allah’s Names for Self-Improvement and Growth"
+      "How the 99 Names Encourage Patience, Kindness, and Forgiveness"
+      "Self-Reflection Exercises Based on Allah’s Names and Attributes"
+9. "Art and Calligraphy of Allah’s 99 Names"
+    Blog Topics:
+      "Exploring Islamic Art Through the 99 Names of Allah"
+      "The Beauty of Arabic Calligraphy: Showcasing Allah’s Names"
+      "How Artists Represent Allah’s Names in Different Cultures"
+10. 
+    "Power of Reciting Allah’s 99 Names"
+    Blog Topics:
+      "Benefits of Regularly Reciting the Names of Allah"
+      "How Reciting Allah’s Names Daily Can Transform Your Life"
+      "Personal Testimonies: The Impact of Reciting Allah’s 99 Names"

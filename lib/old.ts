@@ -79,9 +79,9 @@ const names = [
         // },
       ],
     },
-    metaTitle: "Ar Rahmaan Meaning: The Entirely Merciful (99 Names of Allah)",
+    metaTitle: "Ar Rahman Meaning: The Entirely Merciful (99 Names of Allah)",
     metaDescription:
-      "Explore Ar Rahmaan (الرَّحْمَنُ)  one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.",
+      "Explore Ar Rahman (الرَّحْمَنُ)  one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.",
     // <p>
     //     The name Ar-Rahman (The All-Merciful) is mentioned in the Quran exactly half as many times
     //     (57 times) as the name Allah (114 times). All creations are different and completely
@@ -90,7 +90,7 @@ const names = [
     //     Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing,
     //     showing that His mercy was truly not with them in the end.
     // </p>
-    // ` Allah’s mercy to disbelievers is only for this world. In the afterlife, when they ask
+    // ` Allah's mercy to disbelievers is only for this world. In the afterlife, when they ask
     //       Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing,
     //       showing that His mercy was truly not with them in the end.`,
     // quranMentions: [
@@ -237,14 +237,14 @@ const names = [
       name: "ٱلْمُؤْمِنُ",
     },
     english: {
-      name: "AL-MU’MIN",
+      name: "AL-MU'MIN",
       meaning: "The One Who gives Emaan and Security",
     },
     urdu: {
       meaning: "ایمان عطاء کرنے والا، امن دینے والا",
     },
     metaTitle:
-      "Al Mu’min Meaning: The One Who gives Emaan and Security (99 Names of Allah)",
+      "Al Mu'min Meaning: The One Who gives Emaan and Security (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -343,7 +343,7 @@ const names = [
       name: "ٱلْبَارِئُ",
     },
     english: {
-      name: "AL-BAARI’",
+      name: "AL-BAARI'",
       meaning: "The Originator",
     },
     urdu: {
@@ -534,13 +534,13 @@ const names = [
       name: "ٱلْرَّافِعُ",
     },
     english: {
-      name: "AR-RAAFI’",
+      name: "AR-RAAFI'",
       meaning: "The Exalter",
     },
     urdu: {
       meaning: "بلند کرنے والا",
     },
-    metaTitle: "Ar Raafi’ Meaning: The Exalter (99 Names of Allah)",
+    metaTitle: "Ar Raafi' Meaning: The Exalter (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -551,13 +551,13 @@ const names = [
       name: "ٱلْمُعِزُّ",
     },
     english: {
-      name: "AL-MU’IZZ",
+      name: "AL-MU'IZZ",
       meaning: "The Bestower of Honors",
     },
     urdu: {
       meaning: "عزت دینے والا",
     },
-    metaTitle: "Al Mu’izz Meaning: The Bestower of Honors (99 Names of Allah)",
+    metaTitle: "Al Mu'izz Meaning: The Bestower of Honors (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -586,13 +586,13 @@ const names = [
       name: "ٱلْسَّمِيعُ",
     },
     english: {
-      name: "AS-SAMEE’",
+      name: "AS-SAMEE'",
       meaning: "The All-Hearing",
     },
     urdu: {
       meaning: "خوب سننے والا",
     },
-    metaTitle: "As Sami’ Meaning: The All-Hearing (99 Names of Allah)",
+    metaTitle: "As Sami' Meaning: The All-Hearing (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -912,14 +912,14 @@ const names = [
       name: "ٱلْوَاسِعُ",
     },
     english: {
-      name: "AL-WAASI’",
+      name: "AL-WAASI'",
       meaning: "The Vast, The All-Encompassing",
     },
     urdu: {
       meaning: "لامحدود",
     },
     metaTitle:
-      "Al Waasi’ Meaning: The Vast, The All-Encompassing (99 Names of Allah)",
+      "Al Waasi' Meaning: The Vast, The All-Encompassing (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -981,13 +981,13 @@ const names = [
       name: "ٱلْبَاعِثُ",
     },
     english: {
-      name: "AL-BA’ITH",
+      name: "AL-BA'ITH",
       meaning: "The Resurrector",
     },
     urdu: {
       meaning: "اُٹھانے والا",
     },
-    metaTitle: "Al Ba’ith Meaning: The Resurrector (99 Names of Allah)",
+    metaTitle: "Al Ba'ith Meaning: The Resurrector (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -1155,14 +1155,14 @@ const names = [
       name: "ٱلْمُعِيدُ",
     },
     english: {
-      name: "AL-MU’ID",
+      name: "AL-MU'ID",
       meaning: "The Restorer, The Reinstater Who Brings Back All",
     },
     urdu: {
       meaning: "لوٹانے والا، پہلی بار پیدا کرنے والا",
     },
     metaTitle:
-      "Al mu’id Meaning: The Restorer, The Reinstater Who Brings Back All (99 Names of Allah)",
+      "Al mu'id Meaning: The Restorer, The Reinstater Who Brings Back All (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -1387,14 +1387,14 @@ const names = [
       name: "ٱلْمُؤَخِّرُ",
     },
     english: {
-      name: "AL-MU’AKHKHIR",
+      name: "AL-MU'AKHKHIR",
       meaning: "The Delayer, He who puts far away",
     },
     urdu: {
       meaning: "پیچھے کرے والا",
     },
     metaTitle:
-      "Al Mu’akhkhir Meaning: The Delayer, He who puts far away (99 Names of Allah)",
+      "Al Mu'akhkhir Meaning: The Delayer, He who puts far away (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -1492,13 +1492,13 @@ const names = [
       name: "ٱلْمُتَعَالِي",
     },
     english: {
-      name: "AL-MUTA’ALI",
+      name: "AL-MUTA'ALI",
       meaning: "The Self Exalted",
     },
     urdu: {
       meaning: "بلند صفتوں والا",
     },
-    metaTitle: "Al Muta’ali Meaning: The Self Exalted (99 Names of Allah)",
+    metaTitle: "Al Muta'ali Meaning: The Self Exalted (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -1578,13 +1578,13 @@ const names = [
       name: "ٱلْرَّؤُفُ",
     },
     english: {
-      name: "AR-RA’OOF",
+      name: "AR-RA'OOF",
       meaning: "The Most Kind",
     },
     urdu: {
       meaning: "رحم کرنے والا، شفقت کرنے ولا",
     },
-    metaTitle: "Ar Ra’oof Meaning: The Most Kind (99 Names of Allah)",
+    metaTitle: "Ar Ra'oof Meaning: The Most Kind (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -1649,14 +1649,14 @@ const names = [
       name: "ٱلْجَامِعُ",
     },
     english: {
-      name: "AL-JAAMI’",
+      name: "AL-JAAMI'",
       meaning: "The Gatherer, the Uniter",
     },
     urdu: {
       meaning: "اکھٹا کرنے والا",
     },
     metaTitle:
-      "Al Jaami’ Meaning: The Gatherer, the Uniter (99 Names of Allah)",
+      "Al Jaami' Meaning: The Gatherer, the Uniter (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -1702,13 +1702,13 @@ const names = [
       name: "ٱلْمَانِعُ",
     },
     english: {
-      name: "AL-MANI’",
+      name: "AL-MANI'",
       meaning: "The Withholder",
     },
     urdu: {
       meaning: "روکنے والا، باز رکھنے والا",
     },
-    metaTitle: "Al Mani’ Meaning: The Withholder (99 Names of Allah)",
+    metaTitle: "Al Mani' Meaning: The Withholder (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -1737,13 +1737,13 @@ const names = [
       name: "ٱلْنَّافِعُ",
     },
     english: {
-      name: "AN-NAFI’",
+      name: "AN-NAFI'",
       meaning: "The Creator of Good",
     },
     urdu: {
       meaning: "نفع پہنچانے والا",
     },
-    metaTitle: "An Nafi’ Meaning: The Creator of Good (99 Names of Allah)",
+    metaTitle: "An Nafi' Meaning: The Creator of Good (99 Names of Allah)",
     metaDescription: "",
   },
   {
@@ -1788,14 +1788,14 @@ const names = [
       name: "ٱلْبَدِيعُ",
     },
     english: {
-      name: "AL-BADEE’",
+      name: "AL-BADEE'",
       meaning: "The Incomparable Originator",
     },
     urdu: {
       meaning: "نادر پیدا کرنے والا",
     },
     metaTitle:
-      "Al Badee’ Meaning: The Incomparable Originator (99 Names of Allah)",
+      "Al Badee' Meaning: The Incomparable Originator (99 Names of Allah)",
     metaDescription: "",
   },
   {

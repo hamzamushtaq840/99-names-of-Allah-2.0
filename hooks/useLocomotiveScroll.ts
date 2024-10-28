@@ -1,8 +1,7 @@
-"use client";
 import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
 
-const LocomotiveScroll = () => {
+const useLocomotiveScroll = () => {
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
@@ -20,8 +19,6 @@ const LocomotiveScroll = () => {
 
     requestAnimationFrame(raf);
   }, []);
-
-  return <></>;
 };
 
-export default LocomotiveScroll;
+export default useLocomotiveScroll;

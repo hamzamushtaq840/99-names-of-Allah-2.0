@@ -19,10 +19,13 @@ const NextButton = ({ nextName }: INameNextComponentProp) => {
       }}
       title={nextName}
       replace
-      className={clsx("text-4xl", {
-        "cursor-pointer text-[#FDC237]/75 hover:text-[#FDC237]": nextName,
-        "text-grey": !nextName,
-      })}
+      className={clsx(
+        "hover:bg-actionButton flex h-12 w-12 items-center justify-center rounded-full text-4xl",
+        {
+          "cursor-pointer text-[#FDC237]/75 hover:text-[#FDC237]": nextName,
+          "text-grey": !nextName,
+        },
+      )}
       aria-label="forward"
     >
       <IoIosArrowForward />

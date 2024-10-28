@@ -8,7 +8,14 @@ import CardDescription from "./card-description";
 // Interface
 import { INameCardComponentProps } from "@/lib/interfaces";
 
-const Card = ({ name }: INameCardComponentProps) => {
+// Methods
+import getBase64 from "@/actions/getLocalBase64";
+
+const Card = async ({ name }: INameCardComponentProps) => {
+  const myBlurDataUrl = await getBase64(
+    `https://www.99namesofallah.faith${name.image}`,
+  );
+
   return (
     <Link
       href={`/name/${name.english.name}`}
@@ -25,6 +32,9 @@ const Card = ({ name }: INameCardComponentProps) => {
           objectFit: "cover",
           filter: `brightness(${name.imageBrightness})`,
         }}
+        blurDataURL={myBlurDataUrl}
+        placeholder="blur"
+        loading="lazy"
       />
       <CardDescription name={name} />
     </Link>

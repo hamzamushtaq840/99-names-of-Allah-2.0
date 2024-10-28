@@ -1,4 +1,5 @@
 // Core
+import { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -8,13 +9,16 @@ import { poppins } from "../components/ui/fonts";
 // Style
 import "./global.css";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "99 Names of Allah - Asma Ul Husna Explained with Meanings",
   description: `99 Names of Allah (SWT) with English meanings, descriptions, along with the Arabic pronunciation for each name.`,
+  metadataBase: new URL("https://99namesofallah.faith"),
   openGraph: {
-    openGraphImage: "https://www.99namesofallah.faith/unnamed.jpg",
-    title: "99 Names of Allah - Asma Ul Husna Explained with Meanings",
-    description: "Acme is a...",
+    images: [
+      {
+        url: "/og-ss.png",
+      },
+    ],
   },
 };
 

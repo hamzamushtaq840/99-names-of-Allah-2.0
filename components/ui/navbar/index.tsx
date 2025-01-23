@@ -8,7 +8,7 @@ import clsx from "clsx";
 
 // Icons
 import { IoMdMenu } from "react-icons/io";
-import { CiCoffeeCup } from "react-icons/ci";
+import { BiDonateHeart } from "react-icons/bi";
 
 // Fonts
 import { readex } from "../fonts";
@@ -57,10 +57,15 @@ const Navbar = () => {
             Names
           </Link>
         </li>
-        <li className="flex h-10 items-center gap-1 rounded-full bg-orangeSub px-4 text-white">
-          <span>Buy me Coffee</span>
-          <CiCoffeeCup className="h-6 w-6" />
-        </li>
+        <Link
+          href={"https://buymeacoffee.com/hamzamushtaq840"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex h-10 cursor-pointer items-center gap-1 rounded-full bg-orangeSub px-5 py-4 text-white transition-all duration-700 hover:scale-[1.1] hover:border-black hover:bg-orange"
+        >
+          <span>Hadiya</span>
+          <BiDonateHeart className="h-6 w-6" />
+        </Link>
       </ul>
 
       {/* right-side  */}

@@ -3,6 +3,8 @@ import Image from "next/image";
 
 // UI Components
 import Heading1 from "@/components/ui/headings/heading1";
+
+// Constants
 import { ICONS } from "@/assets/icons";
 
 export default function Hero() {

@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.4theseekeroftruth.com/al-muhaymin/#article",
+      "name": "The Name of Allah Al-Muhaymin (The Ever-Watching) |",
+      "headline": "Al-Muhaymin (The Ever-Watching)",
+      "author": {
+        "@id": "https://www.4theseekeroftruth.com/author/siteadmin/#author"
+      },
+      "publisher": { "@id": "https://www.4theseekeroftruth.com/#organization" },
+      "datePublished": "2018-08-31T22:38:06+03:00",
+      "dateModified": "2018-08-31T22:38:06+03:00",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": {
+        "@id": "https://www.4theseekeroftruth.com/al-muhaymin/#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://www.4theseekeroftruth.com/al-muhaymin/#webpage"
+      },
+      "articleSection": "Allaah\u2019s Names &amp; Attributes, Allah's Names and Attributes, Attributes of Allah, Names of Allah, The Ever Watching, Understanding the Name of Allah, Where is Allah"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.4theseekeroftruth.com/al-muhaymin/#breadcrumblist",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "@id": "https://www.4theseekeroftruth.com/#listItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.4theseekeroftruth.com/",
+          "nextItem": "https://www.4theseekeroftruth.com/al-muhaymin/#listItem"
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.4theseekeroftruth.com/al-muhaymin/#listItem",
+          "position": 2,
+          "name": "Al-Muhaymin (The Ever-Watching)",
+          "previousItem": "https://www.4theseekeroftruth.com/#listItem"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.4theseekeroftruth.com/#organization",
+      "description": "Spreading the correct Islamic belief based on Qur'an and the Sunnah, post by post",
+      "url": "https://www.4theseekeroftruth.com/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.4theseekeroftruth.com/author/siteadmin/#author",
+      "url": "https://www.4theseekeroftruth.com/author/siteadmin/",
+      "name": "siteadmin",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.4theseekeroftruth.com/al-muhaymin/#authorImage",
+        "url": "https://secure.gravatar.com/avatar/c46448078265d509d0e43ef0f5a84299?s=96&d=mm&r=g",
+        "width": 96,
+        "height": 96,
+        "caption": "siteadmin"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.4theseekeroftruth.com/al-muhaymin/#webpage",
+      "url": "https://www.4theseekeroftruth.com/al-muhaymin/",
+      "name": "The Name of Allah Al-Muhaymin (The Ever-Watching) |",
+      "description": "Explanation of Allah's Name Al-Muhaymin (The Ever-Watching) according to the Qur'an and the authentic Sunnah, and the impact of believing in this Name.",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://www.4theseekeroftruth.com/#website" },
+      "breadcrumb": {
+        "@id": "https://www.4theseekeroftruth.com/al-muhaymin/#breadcrumblist"
+      },
+      "author": {
+        "@id": "https://www.4theseekeroftruth.com/author/siteadmin/#author"
+      },
+      "creator": {
+        "@id": "https://www.4theseekeroftruth.com/author/siteadmin/#author"
+      },
+      "datePublished": "2018-08-31T22:38:06+03:00",
+      "dateModified": "2018-08-31T22:38:06+03:00"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.4theseekeroftruth.com/#website",
+      "url": "https://www.4theseekeroftruth.com/",
+      "description": "Spreading the correct Islamic belief based on Qur'an and the Sunnah, post by post",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://www.4theseekeroftruth.com/#organization" },
+      "urlOfWebsite": "https://www.4theseekeroftruth.com/al-muhaymin"
+    }
+  ]
+}

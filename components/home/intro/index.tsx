@@ -10,7 +10,6 @@ const Intro = () => {
       {/* left side */}
       <div className="flex flex-col gap-4 sm:gap-6">
         <Heading2Intro />
-
         <p className="ml-1 w-full text-base font-light leading-[30px] text-grey sm:w-[85%] sm:text-xl sm:leading-[35px]">
           There is no specific order to the names of Allah. We cannot
           definitively state which name is first and which is last. The
@@ -23,6 +22,7 @@ const Intro = () => {
           is mentioned below.
         </p>
       </div>
+
       {/* right side */}
       {/* // TODO: add sizes in image */}
       <div className="relative h-[500px] min-w-full overflow-hidden rounded-xl p-10 sm:h-[649px] sm:min-w-[449px] sm:p-0">

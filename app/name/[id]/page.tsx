@@ -37,7 +37,7 @@ export default async function Page({ params }: { params: { id: string } }) {
   }
 
   return (
-    <>
+    <div className="names">
       <Navbar />
       <main className="mx-8 mt-8 flex flex-col items-center sm:mx-20">
         <Heading name={name} />
@@ -53,6 +53,6 @@ export default async function Page({ params }: { params: { id: string } }) {
         </>
         )} */}
       </main>
-    </>
+    </div>
   );
 }

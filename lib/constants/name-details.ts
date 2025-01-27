@@ -29,7 +29,9 @@ export const NAME_DETAILS = [
     </br>
     `,
     metaTitle: "Ar Rahmaan Meaning: The Entirely Merciful (99 Names of Allah)",
-    metaDescription: `Explore Ar Rahmaan (الرَّحْمَنُ) one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.`,
+    metaDescription: `Explore Ar Rahmaan (الرَّحْمَنُ) one of the 99 names of Allah, representing him with the 
+    attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance 
+    of the 99 names of Allah on our website.`,
   },
   {
     id: 2,
@@ -58,7 +60,9 @@ export const NAME_DETAILS = [
     </p>
     `,
     metaTitle: "Ar Raheem Meaning: The Bestower of Mercy (99 Names of Allah)",
-    metaDescription: `Explore Ar Rahmeem (ٱلْرَّحِيْمُ) one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Raheem and the significance of the 99 names of Allah on our website.`,
+    metaDescription: `Explore Ar Rahmeem (ٱلْرَّحِيْمُ) one of the 99 names of Allah, representing him with the 
+    attribute The Most Merciful. Discover the divine attributes of Ar Raheem and the significance 
+    of the 99 names of Allah on our website.`,
   },
   {
     id: 3,
@@ -89,8 +93,9 @@ export const NAME_DETAILS = [
     `,
     metaTitle:
       "Al Malik Meaning: The King and Owner of Dominion (99 Names of Allah)",
-    metaDescription:
-      "Explore Ar Malik (ٱلْمَلِكُ) one of the 99 names of Allah, representing him with the attribute The King and Owner of Dominion. Discover the divine attributes of Al Malik and the significance of the 99 names of Allah on our website.",
+    metaDescription: `Explore Ar Malik (ٱلْمَلِكُ) one of the 99 names of Allah, representing him with the 
+    attribute The King  and Owner of Dominion. Discover the divine attributes of Al Malik and the significance 
+    of the 99 names of Allah on our website.`,
   },
   {
     id: 4,
@@ -119,8 +124,9 @@ export const NAME_DETAILS = [
     </p>
     `,
     metaTitle: "Al Quddus Meaning: The Absolutely Purest (99 Names of Allah)",
-    metaDescription:
-      "Explore Al Quddus (ٱلْقُدُّوسُ) one of the 99 names of Allah, representing him with the attribute The Absolutely Purest. Discover the divine attributes of Al Quddus and the significance of the 99 names of Allah on our website.",
+    metaDescription: `Explore Al Quddus (ٱلْقُدُّوسُ) one of the 99 names of Allah, representing him with the 
+    attribute The Absolutely Purest. Discover the divine attributes of Al Quddus and the significance of 
+    the 99 names of Allah on our website.`,
   },
   {
     id: 5,
@@ -148,8 +154,9 @@ export const NAME_DETAILS = [
     `,
     metaTitle:
       "As Salam Meaning: The Perfection and Giver of Peace (99 Names of Allah)",
-    metaDescription:
-      "Explore As Salam (ٱلْسَّلَامُ) one of the 99 names of Allah, representing him with the attribute The Perfection and Giver of Peace. Discover the divine attributes of As Salam and the significance of the 99 names of Allah on our website.",
+    metaDescription: `Explore As Salam (ٱلْسَّلَامُ) one of the 99 names of Allah, representing him with the 
+    attribute The Perfection and Giver of Peace. Discover the divine attributes of As Salam and the 
+    significance of the 99 names of Allah on our website.`,
   },
   {
     id: 6,
@@ -182,8 +189,9 @@ export const NAME_DETAILS = [
     `,
     metaTitle:
       "Al Mumin Meaning: The One Who gives Emaan and Security (99 Names of Allah)",
-    metaDescription:
-      "Explore Al Mumin (ٱلْمُؤْمِنُ) one of the 99 names of Allah, representing him with the attribute The One Who gives Emaan and Security. Discover the divine attributes of Al Mumin and the significance of the 99 names of Allah on our website.",
+    metaDescription: `Explore Al Mumin (ٱلْمُؤْمِنُ) one of the 99 names of Allah, representing him with the 
+    attribute The One Who gives Emaan and Security. Discover the divine attributes of Al Mumin and the significance of the 
+    99 names of Allah on our website.`,
   },
   {
     id: 7,
@@ -213,7 +221,37 @@ export const NAME_DETAILS = [
     `,
     metaTitle:
       "Al Muhaymin Meaning: The Guardian, The Witness, The Overseer (99 Names of Allah)",
-    metaDescription:
-      "Explore Al Muhaymin. (ٱلْمُهَيْمِنُ) one of the 99 names of Allah, representing him with the attributes The Guardian, The Witness, The Overseer. Discover the divine attributes of Al Muhaymin and the significance of the 99 names of Allah on our website.",
+    metaDescription: `Explore Al Muhaymin. (ٱلْمُهَيْمِنُ) one of the 99 names of Allah, representing him with the 
+    attributes The Guardian, The Witness, The Overseer. Discover the divine attributes of Al Muhaymin and the 
+    significance of the 99 names of Allah on our website.`,
+  },
+  {
+    id: 8,
+    arabic: {
+      name: "ٱلْعَزِيزُ",
+    },
+    english: {
+      name: "AL-AZEEZ",
+      meaning: "The All Mighty",
+    },
+    intro: `
+    <p>
+      Allah calls Himself Al-Azeez, which means the One who is strong, powerful, and mighty. He is the One 
+      who overcomes and cannot be overcome. Al-Azeez is the Unconquerable, the One with complete and 
+      perfect authority over all things. His strength is unmatched, and His power encompasses everything in 
+      existence. Truly, He is the source of all might and honor.
+    </p>
+    </br>
+    <p>
+      He has no competitor, no equal, and no rival. He is unique in His existence and unmatched in His 
+      perfection. Nothing can overpower Him, and He exercises His power with perfect wisdom 🌟. 
+      His power is infinite, and His presence should be a source of comfort and salvation for you. 
+      Nothing can harm you if He is with you. Fear nothing, and love Him wholeheartedly 💖.
+    </p>
+    `,
+    metaTitle: "Al Azeez Meaning: The All Mighty",
+    metaDescription: `Explore Al Azeez. (ٱلْمُهَيْمِنُ) one of the 99 names of Allah, representing him with the 
+    attributes The All Mighty. Discover the divine attributes of Al Azeez and the significance of the 99 names of 
+    Allah on our website.`,
   },
 ];

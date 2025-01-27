@@ -1,270 +1,270 @@
 const names = [
-  {
-    image:
-      "https://i.pinimg.com/originals/d1/65/97/d165973ecc3dd541529a2d2cdeaf2c11.jpg",
-    imageBrightness: "40%",
-    arabic: {
-      name: "الرَّحْمَنُ",
-    },
-    english: {
-      name: "AR-RAHMAAN",
-      meaning: "The Entirely Merciful",
-    },
-    urdu: {
-      meaning: "انتہائی مہربان",
-    },
-    singlePageData: {
-      intro: `Ar Rahman, a profound attribute of Allah, holds a deep and multifaceted significance according to Islamic scholars. This divine name encapsulates the essence of divine mercy in two profound ways. Firstly, it signifies that mercy itself is one of Allah's inherent attributes, exemplifying His boundless compassion and benevolence. Secondly, Ar-Rahman reflects Allah's unwavering and all encompassing mercy extended to all of His creations, transcending boundaries and encompassing every corner of existence.   and that is referring to the power and authority and all-encompassing might of Allah, glory to Him in the highest! The name encompasses the meaning of all the attributes that are exclusively His as The Almighty!. ---------In 19:85-96, one of the most powerful and clarifying illuminations of the meaning of the name Al-Rahman, used here repeatedly, forcefully condemns the idol-worship of Aissa (Jesus) by Christians and any allegation that the Almighty (all glory to Him in the highest) shares power with any other, or procreates. No, He is the Creator, alone, and there is none like Him, and all others and all else are creatures, categorically different, and all are utterly and completely subjected to His authority and are His worshippers: recognise it or not! These ayat mention that the mountains, the heavens and the earth all prostrate in awe and worship of Al-Rahman. They vividly describe how this blasphemy invokes His wrath. Is this the description of "The Beneficent" or "Most Gracious"? Do these ayat describe a benevolent benefactor (as in "beneficent") or a generous host (as in "gracious"), "graciously" accommodating His "guests" or the recipients of His largesse, or a kind-hearted ruler forgiving His subjects, or do they describe none but the Almighty? For a word of such magnitude, such immense significance, an inept substitute for the true meaning cannot be simply brushed off as a minor 'mistake'.------------ Just as the name Al-Raheem (the All-Merciful) is mentioned in the Quran (in reference to Allah) exactly twice as many times (114 times) as the mentioning of the name Al-Rahman (The Almighty) (57 times), so His power, being the "heavier" element, is balanced with twice as much mercy, such that His mercy "is as wide as everything" or encompasses all that exists (7:156).`,
-      quranMentions: [
-        {
-          contentType: "text",
-          content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
-        },
-        {
-          contentType: "ayah",
-          content: `“That is the Knower of the seen and unseen—the Almighty, Most Merciful”`,
-          ayahNo: "32:6",
-          link: "https://quran.com/32/6",
-        },
-        {
-          contentType: "ayah",
-          content: `“Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever you call, He has the Most Beautiful Names.” Do not recite your prayers too loudly or silently, but seek a way between.”`,
-          ayahNo: "17:10",
-          link: "https://quran.com/17/110",
-        },
-        {
-          contentType: "text",
-          content: `Almighty Himself described the name Al-Rahman as being commensurate with the name Allah`,
-        },
-        {
-          contentType: "ayah",
-          content: `“She appealed, “I truly seek refuge in the Most Compassionate from you! ˹So leave me alone˺ if you are God-fearing.””`,
-          ayahNo: "19:18",
-          link: "https://quran.com/19/18",
-        },
-        {
-          contentType: "text",
-          content: `Mary asks for protection from Al-Rahman against one whom she perceives as an unknown man entering her private chambers, but who in fact is the Archangel Jibreel (Gabriel). She is asking for protection from the Most Powerful, the Almighty, not mercy from "the Beneficent"! (see editor's note 3). She is asking for protection from Al-Rahman against the "intruder" in order also to frighten the "intruder", for which situation the appellation "the Merciful" or "The Most Gracious" would hardly instill fear, and hence be unsuitable. Obviously, Maryam knew the meaning of the name Al-Rahman and we are shown here by Al-Rahman himself (who, according to 55:2, teaches us the Quran) that she used His name appropriately.`,
-        },
-        {
-          contentType: "ayah",
-          content: `“O  dear father! I truly fear that you will be touched by a torment from the Most Compassionate, and become Satan's companion ˹in Hell˺.””`,
-          ayahNo: "19:45",
-          link: "https://quran.com/19/45",
-        },
-        {
-          contentType: "text",
-          content: `The choice of which name for God to use by Abraham is very significant. Abraham wanted to warn his father and scare him of a great punishment from God. Abraham chose the name Al-Rahman knowing that great punishment is more appropriate to scare his father when associated to an Almighty rather a Most Merciful. This again sheds great light on the true meaning of the name Al-Rahman. It is within the bounds of the Almighty, His authority and power to afflict punishment, but it is not within the definition of "mercy" or "beneficence" or "graciousness" to afflict punishment or cause torture.`,
-        },
-        // {
-        //   contentType: 'text',
-        //   content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
-        // },
-      ],
-      hadithMentions: [
-        // {
-        //   contentType: 'text',
-        //   content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as theAr-Rahman.`,
-        // },
-        {
-          contentType: "hadees",
-          narrated: "Abu Huraira",
-          content: `The Prophet (ﷺ) said, "The word 'Ar-Rahm (womb) derives its name from Ar-Rahman (i.e., one of the names of Allah) and Allah said: 'I will keep good relation with the one who will keep good relation with you, (womb i.e. Kith and Kin) and sever the relation with him who will sever the relation with you, (womb, i.e. Kith and Kin).`,
-          hadeesNo: "Bukhari:5988",
-          link: "https://sunnah.com/bukhari:5988",
-        },
-        // {
-        //   contentType: 'text',
-        //   content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
-        // },
-      ],
-    },
-    metaTitle: "Ar Rahman Meaning: The Entirely Merciful (99 Names of Allah)",
-    metaDescription:
-      "Explore Ar Rahman (الرَّحْمَنُ)  one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.",
-    // <p>
-    //     The name Ar-Rahman (The All-Merciful) is mentioned in the Quran exactly half as many times
-    //     (57 times) as the name Allah (114 times). All creations are different and completely
-    //     under His authority. The mountains, the heavens, and the earth all bow in awe and worship
-    //     of Ar-Rahman. Allah's mercy to disbelievers is only for this world. In the afterlife, when they ask
-    //     Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing,
-    //     showing that His mercy was truly not with them in the end.
-    // </p>
-    // ` Allah's mercy to disbelievers is only for this world. In the afterlife, when they ask
-    //       Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing,
-    //       showing that His mercy was truly not with them in the end.`,
-    // quranMentions: [
-    //   {
-    //     contentType: "text",
-    //     content: `From the root ra-ha-mim (ر ح م), which has the following classical
-    //               Arabic connotations: to have tenderness, kindness to love to have mercy,
-    //               to have pity to show favor and goodness to have all that is required for
-    //               beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total
-    //               114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م),
-    //               which has the following classical Arabic connotations: to have tenderness,
-    //               kindness to love to have mercy, to have pity to show favor and goodness to
-    //               have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned
-    //               in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
-    //   },
-    //   {
-    //     contentType: "ayah",
-    //     content: `“That is the Knower of the seen and unseen—the Almighty, Most Merciful”`,
-    //     ayahNo: "32:6",
-    //     link: "https://quran.com/32/6",
-    //   },
-    //   {
-    //     contentType: "ayah",
-    //     content: `“Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever
-    //                 you call, He has the Most Beautiful Names.” Do not recite your prayers too loudly
-    //                 or silently, but seek a way between.”`,
-    //     ayahNo: "17:10",
-    //     link: "https://quran.com/17/110",
-    //   },
-    //   {
-    //     contentType: "text",
-    //     content: `Almighty Himself described the name Al-Rahman as being commensurate with the name Allah`,
-    //   },
-    //   {
-    //     contentType: "ayah",
-    //     content: `“She appealed, “I truly seek refuge in the Most Compassionate from you! ˹So leave me alone˺ if you are God-fearing.””`,
-    //     ayahNo: "19:18",
-    //     link: "https://quran.com/19/18",
-    //   },
-    //   {
-    //     contentType: "text",
-    //     content: `Mary asks for protection from Al-Rahman against one whom she perceives as an unknown man entering her private chambers, but who in fact is the Archangel Jibreel (Gabriel). She is asking for protection from the Most Powerful, the Almighty, not mercy from "the Beneficent"! (see editor's note 3). She is asking for protection from Al-Rahman against the "intruder" in order also to frighten the "intruder", for which situation the appellation "the Merciful" or "The Most Gracious" would hardly instill fear, and hence be unsuitable. Obviously, Maryam knew the meaning of the name Al-Rahman and we are shown here by Al-Rahman himself (who, according to 55:2, teaches us the Quran) that she used His name appropriately.`,
-    //   },
-    //   {
-    //     contentType: "ayah",
-    //     content: `“O  dear father! I truly fear that you will be touched by a torment from the Most Compassionate, and become Satan's companion ˹in Hell˺.””`,
-    //     ayahNo: "19:45",
-    //     link: "https://quran.com/19/45",
-    //   },
-    //   {
-    //     contentType: "text",
-    //     content: `The choice of which name for God to use by Abraham is very significant. Abraham wanted to warn his father and scare him of a great punishment from God. Abraham chose the name Al-Rahman knowing that great punishment is more appropriate to scare his father when associated to an Almighty rather a Most Merciful. This again sheds great light on the true meaning of the name Al-Rahman. It is within the bounds of the Almighty, His authority and power to afflict punishment, but it is not within the definition of "mercy" or "beneficence" or "graciousness" to afflict punishment or cause torture.`,
-    //   },
-    // ],
-    // hadithMentions: [
-    //   {
-    //     contentType: "hadees",
-    //     narrated: "Abu Huraira",
-    //     content: `The Prophet (ﷺ) said, "The word 'Ar-Rahm (womb) derives its
-    //                 name from Ar-Rahman (i.e., one of the names of Allah) and Allah
-    //                 said: 'I will keep good relation with the one who will keep good
-    //                 relation with you, (womb i.e. Kith and Kin) and sever the relation
-    //                  with him who will sever the relation with you, (womb, i.e. Kith and Kin).`,
-    //     hadeesNo: "Bukhari:5988",
-    //     link: "https://sunnah.com/bukhari:5988",
-    //   },
-    // ],
-  },
-  {
-    image:
-      "https://i.pinimg.com/originals/a3/22/53/a32253bc408d53b57672dc0880856302.jpg",
-    imageBrightness: "45%",
-    arabic: {
-      name: "ٱلْرَّحِيْمُ",
-    },
-    english: {
-      name: "AR-RAHEEM",
-      meaning: "The Bestower of Mercy",
-    },
-    urdu: {
-      meaning: "انتہائی رحم کرنے والا",
-    },
-    metaTitle: "Ar Raheem Meaning: The Bestower of Mercy (99 Names of Allah)",
-    metaDescription: "",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
-    imageBrightness: "40%",
-    arabic: {
-      name: "ٱلْمَلِكُ",
-    },
-    english: {
-      name: "AL-MALIK",
-      meaning: "The King and Owner of Dominion",
-    },
-    urdu: {
-      meaning: "مالک، بادشاہ",
-    },
-    metaTitle:
-      "Al Malik Meaning: The King and Owner of Dominion (99 Names of Allah)",
-    metaDescription: "",
-  },
-  {
-    image:
-      "https://i.pinimg.com/564x/a8/21/83/a82183f88a40aef6e47629b1fb3cec96.jpg",
-    imageBrightness: "45%",
-    arabic: {
-      name: "ٱلْقُدُّوسُ",
-    },
-    english: {
-      name: "AL-QUDDUS",
-      meaning: "The Absolutely Purest",
-    },
-    urdu: {
-      meaning: "انتہائی پاک ذات",
-    },
-    metaTitle: "Al Qudoos Meaning: The Absolutely Purest (99 Names of Allah)",
-    metaDescription: "",
-  },
-  {
-    image:
-      "https://i.pinimg.com/564x/86/f9/d3/86f9d34a8f6ae41717dfa98e4a8e7eaa.jpg",
-    imageBrightness: "40%",
-    arabic: {
-      name: "ٱلْسَّلَامُ",
-    },
-    english: {
-      name: "AS-SALAM",
-      meaning: "The Perfection and Giver of Peace",
-    },
-    urdu: {
-      meaning: "سلامتی والا",
-    },
-    metaTitle:
-      "As Salam Meaning: The Perfection and Giver of Peace (99 Names of Allah)",
-    metaDescription: "",
-  },
-  {
-    image:
-      "https://i.pinimg.com/750x/91/b2/d5/91b2d572151f1d6e49720b9bad0940f9.jpg",
-    imageBrightness: "45%",
-    arabic: {
-      name: "ٱلْمُؤْمِنُ",
-    },
-    english: {
-      name: "AL-MU'MIN",
-      meaning: "The One Who gives Emaan and Security",
-    },
-    urdu: {
-      meaning: "ایمان عطاء کرنے والا، امن دینے والا",
-    },
-    metaTitle:
-      "Al Mu'min Meaning: The One Who gives Emaan and Security (99 Names of Allah)",
-    metaDescription: "",
-  },
-  {
-    image:
-      "https://i.pinimg.com/564x/ef/c3/29/efc32913100d6d00a95b95b285c777b1.jpg",
-    imageBrightness: "40%",
-    arabic: {
-      name: "ٱلْمُهَيْمِنُ",
-    },
-    english: {
-      name: "AL-MUHAYMIN",
-      meaning: "The Guardian, The Witness, The Overseer",
-    },
-    urdu: {
-      meaning: "نگرانی کرنے والا",
-    },
-    metaTitle:
-      "Al Muhaymin Meaning: The Guardian, The Witness, The Overseer (99 Names of Allah)",
-    metaDescription: "",
-  },
+  // {
+  //   image:
+  //     "https://i.pinimg.com/originals/d1/65/97/d165973ecc3dd541529a2d2cdeaf2c11.jpg",
+  //   imageBrightness: "40%",
+  //   arabic: {
+  //     name: "الرَّحْمَنُ",
+  //   },
+  //   english: {
+  //     name: "AR-RAHMAAN",
+  //     meaning: "The Entirely Merciful",
+  //   },
+  //   urdu: {
+  //     meaning: "انتہائی مہربان",
+  //   },
+  //   singlePageData: {
+  //     intro: `Ar Rahman, a profound attribute of Allah, holds a deep and multifaceted significance according to Islamic scholars. This divine name encapsulates the essence of divine mercy in two profound ways. Firstly, it signifies that mercy itself is one of Allah's inherent attributes, exemplifying His boundless compassion and benevolence. Secondly, Ar-Rahman reflects Allah's unwavering and all encompassing mercy extended to all of His creations, transcending boundaries and encompassing every corner of existence.   and that is referring to the power and authority and all-encompassing might of Allah, glory to Him in the highest! The name encompasses the meaning of all the attributes that are exclusively His as The Almighty!. ---------In 19:85-96, one of the most powerful and clarifying illuminations of the meaning of the name Al-Rahman, used here repeatedly, forcefully condemns the idol-worship of Aissa (Jesus) by Christians and any allegation that the Almighty (all glory to Him in the highest) shares power with any other, or procreates. No, He is the Creator, alone, and there is none like Him, and all others and all else are creatures, categorically different, and all are utterly and completely subjected to His authority and are His worshippers: recognise it or not! These ayat mention that the mountains, the heavens and the earth all prostrate in awe and worship of Al-Rahman. They vividly describe how this blasphemy invokes His wrath. Is this the description of "The Beneficent" or "Most Gracious"? Do these ayat describe a benevolent benefactor (as in "beneficent") or a generous host (as in "gracious"), "graciously" accommodating His "guests" or the recipients of His largesse, or a kind-hearted ruler forgiving His subjects, or do they describe none but the Almighty? For a word of such magnitude, such immense significance, an inept substitute for the true meaning cannot be simply brushed off as a minor 'mistake'.------------ Just as the name Al-Raheem (the All-Merciful) is mentioned in the Quran (in reference to Allah) exactly twice as many times (114 times) as the mentioning of the name Al-Rahman (The Almighty) (57 times), so His power, being the "heavier" element, is balanced with twice as much mercy, such that His mercy "is as wide as everything" or encompasses all that exists (7:156).`,
+  //     quranMentions: [
+  //       {
+  //         contentType: "text",
+  //         content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
+  //       },
+  //       {
+  //         contentType: "ayah",
+  //         content: `“That is the Knower of the seen and unseen—the Almighty, Most Merciful”`,
+  //         ayahNo: "32:6",
+  //         link: "https://quran.com/32/6",
+  //       },
+  //       {
+  //         contentType: "ayah",
+  //         content: `“Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever you call, He has the Most Beautiful Names.” Do not recite your prayers too loudly or silently, but seek a way between.”`,
+  //         ayahNo: "17:10",
+  //         link: "https://quran.com/17/110",
+  //       },
+  //       {
+  //         contentType: "text",
+  //         content: `Almighty Himself described the name Al-Rahman as being commensurate with the name Allah`,
+  //       },
+  //       {
+  //         contentType: "ayah",
+  //         content: `“She appealed, “I truly seek refuge in the Most Compassionate from you! ˹So leave me alone˺ if you are God-fearing.””`,
+  //         ayahNo: "19:18",
+  //         link: "https://quran.com/19/18",
+  //       },
+  //       {
+  //         contentType: "text",
+  //         content: `Mary asks for protection from Al-Rahman against one whom she perceives as an unknown man entering her private chambers, but who in fact is the Archangel Jibreel (Gabriel). She is asking for protection from the Most Powerful, the Almighty, not mercy from "the Beneficent"! (see editor's note 3). She is asking for protection from Al-Rahman against the "intruder" in order also to frighten the "intruder", for which situation the appellation "the Merciful" or "The Most Gracious" would hardly instill fear, and hence be unsuitable. Obviously, Maryam knew the meaning of the name Al-Rahman and we are shown here by Al-Rahman himself (who, according to 55:2, teaches us the Quran) that she used His name appropriately.`,
+  //       },
+  //       {
+  //         contentType: "ayah",
+  //         content: `“O  dear father! I truly fear that you will be touched by a torment from the Most Compassionate, and become Satan's companion ˹in Hell˺.””`,
+  //         ayahNo: "19:45",
+  //         link: "https://quran.com/19/45",
+  //       },
+  //       {
+  //         contentType: "text",
+  //         content: `The choice of which name for God to use by Abraham is very significant. Abraham wanted to warn his father and scare him of a great punishment from God. Abraham chose the name Al-Rahman knowing that great punishment is more appropriate to scare his father when associated to an Almighty rather a Most Merciful. This again sheds great light on the true meaning of the name Al-Rahman. It is within the bounds of the Almighty, His authority and power to afflict punishment, but it is not within the definition of "mercy" or "beneficence" or "graciousness" to afflict punishment or cause torture.`,
+  //       },
+  //       // {
+  //       //   contentType: 'text',
+  //       //   content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
+  //       // },
+  //     ],
+  //     hadithMentions: [
+  //       // {
+  //       //   contentType: 'text',
+  //       //   content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as theAr-Rahman.`,
+  //       // },
+  //       {
+  //         contentType: "hadees",
+  //         narrated: "Abu Huraira",
+  //         content: `The Prophet (ﷺ) said, "The word 'Ar-Rahm (womb) derives its name from Ar-Rahman (i.e., one of the names of Allah) and Allah said: 'I will keep good relation with the one who will keep good relation with you, (womb i.e. Kith and Kin) and sever the relation with him who will sever the relation with you, (womb, i.e. Kith and Kin).`,
+  //         hadeesNo: "Bukhari:5988",
+  //         link: "https://sunnah.com/bukhari:5988",
+  //       },
+  //       // {
+  //       //   contentType: 'text',
+  //       //   content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
+  //       // },
+  //     ],
+  //   },
+  //   metaTitle: "Ar Rahman Meaning: The Entirely Merciful (99 Names of Allah)",
+  //   metaDescription:
+  //     "Explore Ar Rahman (الرَّحْمَنُ)  one of the 99 names of Allah, representing him with the attribute The Most Merciful. Discover the divine attributes of Ar Rahmaan and the significance of the 99 names of Allah on our website.",
+  //   // <p>
+  //   //     The name Ar-Rahman (The All-Merciful) is mentioned in the Quran exactly half as many times
+  //   //     (57 times) as the name Allah (114 times). All creations are different and completely
+  //   //     under His authority. The mountains, the heavens, and the earth all bow in awe and worship
+  //   //     of Ar-Rahman. Allah's mercy to disbelievers is only for this world. In the afterlife, when they ask
+  //   //     Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing,
+  //   //     showing that His mercy was truly not with them in the end.
+  //   // </p>
+  //   // ` Allah's mercy to disbelievers is only for this world. In the afterlife, when they ask
+  //   //       Allah to remove them from Hellfire and seek His help, they will admit their wrongdoing,
+  //   //       showing that His mercy was truly not with them in the end.`,
+  //   // quranMentions: [
+  //   //   {
+  //   //     contentType: "text",
+  //   //     content: `From the root ra-ha-mim (ر ح م), which has the following classical
+  //   //               Arabic connotations: to have tenderness, kindness to love to have mercy,
+  //   //               to have pity to show favor and goodness to have all that is required for
+  //   //               beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total
+  //   //               114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م),
+  //   //               which has the following classical Arabic connotations: to have tenderness,
+  //   //               kindness to love to have mercy, to have pity to show favor and goodness to
+  //   //               have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned
+  //   //               in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`,
+  //   //   },
+  //   //   {
+  //   //     contentType: "ayah",
+  //   //     content: `“That is the Knower of the seen and unseen—the Almighty, Most Merciful”`,
+  //   //     ayahNo: "32:6",
+  //   //     link: "https://quran.com/32/6",
+  //   //   },
+  //   //   {
+  //   //     contentType: "ayah",
+  //   //     content: `“Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever
+  //   //                 you call, He has the Most Beautiful Names.” Do not recite your prayers too loudly
+  //   //                 or silently, but seek a way between.”`,
+  //   //     ayahNo: "17:10",
+  //   //     link: "https://quran.com/17/110",
+  //   //   },
+  //   //   {
+  //   //     contentType: "text",
+  //   //     content: `Almighty Himself described the name Al-Rahman as being commensurate with the name Allah`,
+  //   //   },
+  //   //   {
+  //   //     contentType: "ayah",
+  //   //     content: `“She appealed, “I truly seek refuge in the Most Compassionate from you! ˹So leave me alone˺ if you are God-fearing.””`,
+  //   //     ayahNo: "19:18",
+  //   //     link: "https://quran.com/19/18",
+  //   //   },
+  //   //   {
+  //   //     contentType: "text",
+  //   //     content: `Mary asks for protection from Al-Rahman against one whom she perceives as an unknown man entering her private chambers, but who in fact is the Archangel Jibreel (Gabriel). She is asking for protection from the Most Powerful, the Almighty, not mercy from "the Beneficent"! (see editor's note 3). She is asking for protection from Al-Rahman against the "intruder" in order also to frighten the "intruder", for which situation the appellation "the Merciful" or "The Most Gracious" would hardly instill fear, and hence be unsuitable. Obviously, Maryam knew the meaning of the name Al-Rahman and we are shown here by Al-Rahman himself (who, according to 55:2, teaches us the Quran) that she used His name appropriately.`,
+  //   //   },
+  //   //   {
+  //   //     contentType: "ayah",
+  //   //     content: `“O  dear father! I truly fear that you will be touched by a torment from the Most Compassionate, and become Satan's companion ˹in Hell˺.””`,
+  //   //     ayahNo: "19:45",
+  //   //     link: "https://quran.com/19/45",
+  //   //   },
+  //   //   {
+  //   //     contentType: "text",
+  //   //     content: `The choice of which name for God to use by Abraham is very significant. Abraham wanted to warn his father and scare him of a great punishment from God. Abraham chose the name Al-Rahman knowing that great punishment is more appropriate to scare his father when associated to an Almighty rather a Most Merciful. This again sheds great light on the true meaning of the name Al-Rahman. It is within the bounds of the Almighty, His authority and power to afflict punishment, but it is not within the definition of "mercy" or "beneficence" or "graciousness" to afflict punishment or cause torture.`,
+  //   //   },
+  //   // ],
+  //   // hadithMentions: [
+  //   //   {
+  //   //     contentType: "hadees",
+  //   //     narrated: "Abu Huraira",
+  //   //     content: `The Prophet (ﷺ) said, "The word 'Ar-Rahm (womb) derives its
+  //   //                 name from Ar-Rahman (i.e., one of the names of Allah) and Allah
+  //   //                 said: 'I will keep good relation with the one who will keep good
+  //   //                 relation with you, (womb i.e. Kith and Kin) and sever the relation
+  //   //                  with him who will sever the relation with you, (womb, i.e. Kith and Kin).`,
+  //   //     hadeesNo: "Bukhari:5988",
+  //   //     link: "https://sunnah.com/bukhari:5988",
+  //   //   },
+  //   // ],
+  // },
+  // {
+  //   image:
+  //     "https://i.pinimg.com/originals/a3/22/53/a32253bc408d53b57672dc0880856302.jpg",
+  //   imageBrightness: "45%",
+  //   arabic: {
+  //     name: "ٱلْرَّحِيْمُ",
+  //   },
+  //   english: {
+  //     name: "AR-RAHEEM",
+  //     meaning: "The Bestower of Mercy",
+  //   },
+  //   urdu: {
+  //     meaning: "انتہائی رحم کرنے والا",
+  //   },
+  //   metaTitle: "Ar Raheem Meaning: The Bestower of Mercy (99 Names of Allah)",
+  //   metaDescription: "",
+  // },
+  // {
+  //   image:
+  //     "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+  //   imageBrightness: "40%",
+  //   arabic: {
+  //     name: "ٱلْمَلِكُ",
+  //   },
+  //   english: {
+  //     name: "AL-MALIK",
+  //     meaning: "The King and Owner of Dominion",
+  //   },
+  //   urdu: {
+  //     meaning: "مالک، بادشاہ",
+  //   },
+  //   metaTitle:
+  //     "Al Malik Meaning: The King and Owner of Dominion (99 Names of Allah)",
+  //   metaDescription: "",
+  // },
+  // {
+  //   image:
+  //     "https://i.pinimg.com/564x/a8/21/83/a82183f88a40aef6e47629b1fb3cec96.jpg",
+  //   imageBrightness: "45%",
+  //   arabic: {
+  //     name: "ٱلْقُدُّوسُ",
+  //   },
+  //   english: {
+  //     name: "AL-QUDDUS",
+  //     meaning: "The Absolutely Purest",
+  //   },
+  //   urdu: {
+  //     meaning: "انتہائی پاک ذات",
+  //   },
+  //   metaTitle: "Al Qudoos Meaning: The Absolutely Purest (99 Names of Allah)",
+  //   metaDescription: "",
+  // },
+  // {
+  //   image:
+  //     "https://i.pinimg.com/564x/86/f9/d3/86f9d34a8f6ae41717dfa98e4a8e7eaa.jpg",
+  //   imageBrightness: "40%",
+  //   arabic: {
+  //     name: "ٱلْسَّلَامُ",
+  //   },
+  //   english: {
+  //     name: "AS-SALAM",
+  //     meaning: "The Perfection and Giver of Peace",
+  //   },
+  //   urdu: {
+  //     meaning: "سلامتی والا",
+  //   },
+  //   metaTitle:
+  //     "As Salam Meaning: The Perfection and Giver of Peace (99 Names of Allah)",
+  //   metaDescription: "",
+  // },
+  // {
+  //   image:
+  //     "https://i.pinimg.com/750x/91/b2/d5/91b2d572151f1d6e49720b9bad0940f9.jpg",
+  //   imageBrightness: "45%",
+  //   arabic: {
+  //     name: "ٱلْمُؤْمِنُ",
+  //   },
+  //   english: {
+  //     name: "AL-MU'MIN",
+  //     meaning: "The One Who gives Emaan and Security",
+  //   },
+  //   urdu: {
+  //     meaning: "ایمان عطاء کرنے والا، امن دینے والا",
+  //   },
+  //   metaTitle:
+  //     "Al Mu'min Meaning: The One Who gives Emaan and Security (99 Names of Allah)",
+  //   metaDescription: "",
+  // },
+  // {
+  //   image:
+  //     "https://i.pinimg.com/564x/ef/c3/29/efc32913100d6d00a95b95b285c777b1.jpg",
+  //   imageBrightness: "40%",
+  //   arabic: {
+  //     name: "ٱلْمُهَيْمِنُ",
+  //   },
+  //   english: {
+  //     name: "AL-MUHAYMIN",
+  //     meaning: "The Guardian, The Witness, The Overseer",
+  //   },
+  //   urdu: {
+  //     meaning: "نگرانی کرنے والا",
+  //   },
+  //   metaTitle:
+  //     "Al Muhaymin Meaning: The Guardian, The Witness, The Overseer (99 Names of Allah)",
+  //   metaDescription: "",
+  // },
   {
     image:
       "https://i.pinimg.com/236x/ef/36/0a/ef360a9e971b2d965d72bb4a7556b48d.jpg",

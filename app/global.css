@@ -92,11 +92,6 @@ html.lenis body {
     rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
-  background: transparent; /* make scrollbar transparent */
-}
-
 .name {
   overflow: scroll;
 }

@@ -265,41 +265,41 @@ const names = [
   //     "Al Muhaymin Meaning: The Guardian, The Witness, The Overseer (99 Names of Allah)",
   //   metaDescription: "",
   // },
-  {
-    image:
-      "https://i.pinimg.com/236x/ef/36/0a/ef360a9e971b2d965d72bb4a7556b48d.jpg",
-    imageBrightness: "50%",
-    arabic: {
-      name: "ٱلْعَزِيزُ",
-    },
-    english: {
-      name: "AL-AZEEZ",
-      meaning: "The All Mighty",
-    },
-    urdu: {
-      meaning: "غالب، زبردست، غلبہ والا، عزت دینے والا",
-    },
-    metaTitle: "Al Azeez Meaning: The All Mighty (99 Names of Allah)",
-    metaDescription: "",
-  },
-  {
-    image:
-      "https://i.pinimg.com/564x/5e/64/23/5e6423c6be8e66b73d378c7eb9354688.jpg",
-    imageBrightness: "40%",
-    arabic: {
-      name: "ٱلْجَبَّارُ",
-    },
-    english: {
-      name: "AL-JABBAR",
-      meaning: "The Compeller, The Restorer",
-    },
-    urdu: {
-      meaning: "زبردست غلبہ رکھنے والا",
-    },
-    metaTitle:
-      "Al Jabbar Meaning: The Compeller, The Restorer (99 Names of Allah)",
-    metaDescription: "",
-  },
+  // {
+  //   image:
+  //     "https://i.pinimg.com/236x/ef/36/0a/ef360a9e971b2d965d72bb4a7556b48d.jpg",
+  //   imageBrightness: "50%",
+  //   arabic: {
+  //     name: "ٱلْعَزِيزُ",
+  //   },
+  //   english: {
+  //     name: "AL-AZEEZ",
+  //     meaning: "The All Mighty",
+  //   },
+  //   urdu: {
+  //     meaning: "غالب، زبردست، غلبہ والا، عزت دینے والا",
+  //   },
+  //   metaTitle: "Al Azeez Meaning: The All Mighty (99 Names of Allah)",
+  //   metaDescription: "",
+  // },
+  // {
+  //   image:
+  //     "https://i.pinimg.com/564x/5e/64/23/5e6423c6be8e66b73d378c7eb9354688.jpg",
+  //   imageBrightness: "40%",
+  //   arabic: {
+  //     name: "ٱلْجَبَّارُ",
+  //   },
+  //   english: {
+  //     name: "AL-JABBAR",
+  //     meaning: "The Compeller, The Restorer",
+  //   },
+  //   urdu: {
+  //     meaning: "زبردست غلبہ رکھنے والا",
+  //   },
+  //   metaTitle:
+  //     "Al Jabbar Meaning: The Compeller, The Restorer (99 Names of Allah)",
+  //   metaDescription: "",
+  // },
   {
     image:
       "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
